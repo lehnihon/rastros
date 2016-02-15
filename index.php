@@ -21,24 +21,17 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="tracking-buscar">
+<section id="form-responsivo">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 news-left">
-				<div class="tracking-rastreie cor-amarelo">RASTREIE SEU PEDIDO AQUI</div>
+			<div class="col-md-offset-8 col-md-4">
+				<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
+				<div class="form-conteudo">
+					formulario
+				</div>						
 			</div>
-			<div class="col-md-8 news-right">
-				<form action="<?php echo home_url( '/' ).'rastreamento'; ?>" method="POST" class="tracking-form clearfix">
-					<select name="pesquisawebserv">
-						<option value="remessa">Número de remessa</option>
-						<option value="cpf">CPF</option>
-						<option value="ra">RA</option>
-					</select>
-					<input type="text" name="valor" placeholder="Número">
-					<input class="submit" value="›" type="submit">
-				</form>
-			</div>				
-		</div>	
+
+		</div>
 	</div>
 </section>
 

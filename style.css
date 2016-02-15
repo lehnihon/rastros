@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: Site Data Certa
+Theme Name: Rastros
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -22,7 +22,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 #page {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #858585;
+  color: #9d9d9d;
   text-align: center;
   /* 
   HOME 
@@ -46,21 +46,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     text-decoration: none;
     color: #b6b6b6; }
   #page h1 {
-    color: #00509c;
+    color: #0073b4;
     font-size: 26px;
     font-weight: bold; }
   #page h2 {
-    color: #00509c;
+    color: #0073b4;
     font-size: 20px;
     font-weight: bold; }
   #page section#header header {
-    margin-top: 10px;
-    background-color: #003869;
+    background-color: #0073b4;
     color: white; }
     #page section#header header span {
       padding-top: 2px;
       display: block;
-      float: left; }
+      float: left;
+      margin-right: 10px; }
     #page section#header header ul {
       padding-top: 2px;
       padding-left: 5px;
@@ -68,9 +68,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#header header div.box {
       padding-top: 8px;
       padding-bottom: 8px; }
-    #page section#header header span.texto-branco {
-      margin-left: 5px;
-      font-size: 15px; }
     #page section#header header ul.redes_sociais_header {
       height: 22px;
       text-align: left;
@@ -87,28 +84,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 22px;
       height: 20px; }
     #page section#header header ul.redes_sociais_header .youtube {
-      background-image: url("images/redes-top.png");
+      background-image: url("images/redes_header.jpg");
       background-position: left,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#header header ul.redes_sociais_header .instagram {
-      background-image: url("images/redes-top.png");
+      background-image: url("images/redes_header.jpg");
       background-position: -34px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#header header ul.redes_sociais_header .twitter {
-      background-image: url("images/redes-top.png");
+      background-image: url("images/redes_header.jpg");
       background-position: -66px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#header header ul.redes_sociais_header .facebook {
-      background-image: url("images/redes-top.png");
+      background-image: url("images/redes_header.jpg");
       background-position: -98px,center;
       background-repeat: no-repeat;
       width: 22px;
@@ -126,39 +123,87 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#header header .btn-login:hover {
       background-color: #ffdd6b; }
   #page section#header nav {
-    padding: 20px 0; }
-    #page section#header nav form.search-form input.pesquisar-input {
-      background-color: #e4e4e4;
-      border: 0;
-      float: left;
-      padding: 10.5px 5px; }
-    #page section#header nav form.search-form input.pesquisar-submit {
-      float: left; }
-    #page section#header nav div.menu-header {
-      margin-top: 25px; }
-      #page section#header nav div.menu-header div.menu-op {
-        float: right;
-        margin-right: 30px; }
-        #page section#header nav div.menu-header div.menu-op a {
-          color: #858585;
-          font-weight: bold; }
-        #page section#header nav div.menu-header div.menu-op a:hover {
-          color: #ffc709; }
-    #page section#header nav div.menu-header-blog {
-      margin-top: 15px; }
-      #page section#header nav div.menu-header-blog div.menu-op {
-        margin-top: 12px;
-        float: right;
-        margin-right: 30px; }
-        #page section#header nav div.menu-header-blog div.menu-op a {
-          color: #858585;
-          font-weight: bold; }
-        #page section#header nav div.menu-header-blog div.menu-op a:hover {
-          color: #ffc709; }
-      #page section#header nav div.menu-header-blog div.wrap-search {
-        margin-top: 0;
-        margin-right: 0; }
+    padding: 25px 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
+    #page section#header nav div.fundo-azul {
+      background-color: #0073b4; }
+      #page section#header nav div.fundo-azul div.logo-container {
+        background-color: white;
+        padding: 15px 25px; }
+      #page section#header nav div.fundo-azul div.menu-container {
+        padding: 15px 25px;
+        padding-right: 35px; }
+        #page section#header nav div.fundo-azul div.menu-container div.menu-header {
+          margin-top: 20px; }
+          #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-op {
+            float: right;
+            margin-right: 10px;
+            padding-top: 8px;
+            color: white; }
+            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-op a {
+              color: white;
+              font-size: 15px; }
+            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-op a:hover {
+              color: #ffd100; }
+          #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-seta {
+            float: right;
+            margin-right: 35px;
+            padding-top: 8px; }
+            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-seta span.glyphicon-triangle-bottom {
+              color: #00beed; }
+          #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel {
+            float: right;
+            color: white;
+            margin-right: 35px; }
+            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel img {
+              margin-right: 10px;
+              margin-top: 4px;
+              display: block; }
+            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel strong {
+              font-size: 15px; }
+  #page section#header div.formulario-header {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 220px;
+    z-index: 1030; }
+    #page section#header div.formulario-header header {
+      background-color: #0073b4;
+      padding: 20px 10px; }
+      #page section#header div.formulario-header header h2 {
+        margin: 0;
+        color: white;
+        font-weight: normal;
+        line-height: 28px; }
+    #page section#header div.formulario-header div.form-conteudo {
+      padding: 10px;
+      background-color: #007cc1;
+      color: white;
+      opacity: 0.9;
+      filter: alpha(opacity=90);
+      /* For IE8 and earlier */ }
+  #page section#form-responsivo {
+    margin-bottom: 50px; }
+    #page section#form-responsivo header {
+      background-color: #0073b4;
+      padding: 20px 10px; }
+      #page section#form-responsivo header h2 {
+        margin: 0;
+        color: white;
+        font-weight: normal;
+        line-height: 28px; }
+    #page section#form-responsivo div.form-conteudo {
+      padding: 10px;
+      background-color: #007cc1;
+      color: white; }
   @media (max-width: 991px) {
+    #page div.formulario-header {
+      display: none !important; }
+    #page section#form-responsivo {
+      display: block !important; }
     #page div.header-login-responsive {
       display: block !important; }
     #page div.header-login {
@@ -168,11 +213,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       text-align: left;
       display: block;
       padding: 10px; }
+    #page div.menu-container {
+      display: none !important; } }
+  @media (max-width: 1220px) {
+    #page div.menu-op a {
+      font-size: 14px !important; }
+    #page div.menu-seta {
+      margin-right: 20px !important; }
+    #page div.menu-tel {
+      margin-right: 20px !important; }
+      #page div.menu-tel strong {
+        font-size: 14px !important; }
     #page div.menu-header {
-      display: none; }
-    #page div.menu-header-blog {
-      display: none; } }
+      margin-top: 15px !important; }
+    #page div.formulario-header {
+      top: 235px !important; } }
   @media (min-width: 992px) {
+    #page div.formulario-header {
+      display: block !important; }
+    #page section#form-responsivo {
+      display: none !important; }
     #page div.header-login-responsive {
       display: none !important; }
     #page div.header-login {
@@ -180,8 +240,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div.menu-responsivo {
       display: none; }
     #page ul.menu-header {
-      display: block; }
-    #page div.menu-header-blog {
       display: block; } }
   #page section#banner {
     margin-bottom: 40px; }
@@ -565,7 +623,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 100%; }
 
 .cor-amarelo {
-  color: #ffc709; }
+  color: #ffd100; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
