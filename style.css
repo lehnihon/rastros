@@ -240,6 +240,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin: 5px auto; }
     #page section#home-vantagens div.vantagens-imagens {
       min-height: 150px; }
+      #page section#home-vantagens div.vantagens-imagens img {
+        cursor: pointer; }
   #page section#home-vantagens-detalhes {
     padding: 60px 0;
     background-color: #0c72b0;

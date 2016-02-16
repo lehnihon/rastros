@@ -1,5 +1,15 @@
+
 ( function( $ ) {
 	$(function() {
+		$.fn.extend({
+		    animateCss: function (animationName) {
+		        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+		        $(this).addClass('animated ' + animationName).one(animationEnd, function() {
+		            $(this).removeClass('animated ' + animationName);
+		        });
+		    }
+		});
+
         $(".vantagensdetalhes2").css('display','none');
         $(".vantagensdetalhes3").css('display','none');
         $(".vantagensdetalhes4").css('display','none');
@@ -13,13 +23,13 @@
 
 
         	$(this).attr("src", dirbase+"/images/vantagens4b.jpg" );
-        	$(this).addClass('animated fadeIn'); 
+        	$(this).animateCss('fadeIn'); 
         	$(".vantagensdetalhes2").css('display','none');
         	$(".vantagensdetalhes3").css('display','none');
         	$(".vantagensdetalhes4").css('display','none');
         	$(".vantagensdetalhes5").css('display','none');
         	$(".vantagensdetalhes1").css('display','block');
-        	$(".vantagensdetalhes1").addClass('animated bounceInLeft');     		
+        	$(".vantagensdetalhes1").animateCss('bounceInLeft');     		
         });
 
         $(".vantagens2").on("click",function(){
@@ -29,13 +39,13 @@
         	$(".vantagens5").attr("src", dirbase+"/images/vantagens4a.jpg" );
 
         	$(this).attr("src", dirbase+"/images/vantagens4b.jpg" );
-        	$(this).addClass('animated fadeIn'); 
+        	$(this).animateCss('fadeIn'); 
         	$(".vantagensdetalhes1").css('display','none');
         	$(".vantagensdetalhes3").css('display','none');
         	$(".vantagensdetalhes4").css('display','none');
         	$(".vantagensdetalhes5").css('display','none');
         	$(".vantagensdetalhes2").css('display','block');
-        	$(".vantagensdetalhes2").addClass('animated bounceInLeft');     		
+        	$(".vantagensdetalhes2").animateCss('bounceInLeft');     		
         });
 	});
 
