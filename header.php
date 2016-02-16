@@ -17,6 +17,9 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script>
+	var dirbase = "<?php echo dirname( get_bloginfo('stylesheet_url')) ?>";
+</script>
 </head>
 
 <body <?php body_class(); ?>>

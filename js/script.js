@@ -1,86 +1,43 @@
 ( function( $ ) {
 	$(function() {
-        $(".anima-a").css('visibility','hidden');
-        $(".anima-b").css('visibility','hidden');
-        $(".anima-c").css('visibility','hidden');
-        $(".anima-d").css('visibility','hidden');
-        $(".anima-e").css('visibility','hidden');
-        $(".anima-f").css('visibility','hidden');
-        $(".anima-g").css('visibility','hidden');
-        $(".anima-h").css('visibility','hidden');
-        $(".anima-i").css('visibility','hidden');
+        $(".vantagensdetalhes2").css('display','none');
+        $(".vantagensdetalhes3").css('display','none');
+        $(".vantagensdetalhes4").css('display','none');
+        $(".vantagensdetalhes5").css('display','none');
+
+        $(".vantagens1").on("click",function(){
+        	$(".vantagens2").attr("src", dirbase+"/images/vantagens4a.jpg" );
+        	$(".vantagens3").attr("src", dirbase+"/images/vantagens4a.jpg" );
+        	$(".vantagens4").attr("src", dirbase+"/images/vantagens4a.jpg" );
+        	$(".vantagens5").attr("src", dirbase+"/images/vantagens4a.jpg" );
+
+
+        	$(this).attr("src", dirbase+"/images/vantagens4b.jpg" );
+        	$(this).addClass('animated fadeIn'); 
+        	$(".vantagensdetalhes2").css('display','none');
+        	$(".vantagensdetalhes3").css('display','none');
+        	$(".vantagensdetalhes4").css('display','none');
+        	$(".vantagensdetalhes5").css('display','none');
+        	$(".vantagensdetalhes1").css('display','block');
+        	$(".vantagensdetalhes1").addClass('animated bounceInLeft');     		
+        });
+
+        $(".vantagens2").on("click",function(){
+        	$(".vantagens1").attr("src", dirbase+"/images/vantagens4a.jpg" );
+        	$(".vantagens3").attr("src", dirbase+"/images/vantagens4a.jpg" );
+        	$(".vantagens4").attr("src", dirbase+"/images/vantagens4a.jpg" );
+        	$(".vantagens5").attr("src", dirbase+"/images/vantagens4a.jpg" );
+
+        	$(this).attr("src", dirbase+"/images/vantagens4b.jpg" );
+        	$(this).addClass('animated fadeIn'); 
+        	$(".vantagensdetalhes1").css('display','none');
+        	$(".vantagensdetalhes3").css('display','none');
+        	$(".vantagensdetalhes4").css('display','none');
+        	$(".vantagensdetalhes5").css('display','none');
+        	$(".vantagensdetalhes2").css('display','block');
+        	$(".vantagensdetalhes2").addClass('animated bounceInLeft');     		
+        });
 	});
 
-
-	$(window).scroll(function() {
-		if ($(this).scrollTop() > 300 ) {
-        	$(".anima-a").css('visibility','visible');
-        	$(".anima-a").addClass('animated fadeIn');
-		}
-
-        if ($(this).scrollTop() > 600 ) {
-			var FunctionOne = function () {
-				var r = $.Deferred();
-
-	        	$(".anima-b").css('visibility','visible');
-	        	$(".anima-b").addClass('animated bounceInLeft');
-	        	$(".anima-d").css('visibility','visible');
-	        	$(".anima-d").addClass('animated bounceInRight');
-
-				setTimeout(function () {
-				r.resolve();
-				}, 500);
-				return r;
-			};
-	
-			FunctionOne().done(
-				function () {
-		        	$(".anima-c").css('visibility','visible');
-		        	$(".anima-c").addClass('animated fadeIn');
-				    $('.counter').counterUp({
-				        delay: 50,
-				        time: 1500
-				    }).removeClass('counter');			 
-				}
-			);
-
-        }
-
-        if ($(this).scrollTop() > 1300) {
-			var FunctionOne = function () {
-				var r = $.Deferred();
-
-	        	$(".anima-e").css('visibility','visible');
-	        	$(".anima-e").addClass('animated fadeIn');
-
-				setTimeout(function () {
-				r.resolve();
-				}, 500);
-				return r;
-			};
-	
-			FunctionOne().done(
-				function () {
-		        	$(".anima-f").css('visibility','visible');
-		        	$(".anima-f").addClass('animated fadeIn');		 
-				}
-			);
-
-        }
-		if ($(this).scrollTop() > 1900) {
-			$(".anima-g").css('visibility','visible');
-	        $(".anima-g").addClass('animated fadeIn');
-		}
-        if ($(this).scrollTop() > 2300) {
-        	$(".anima-h").css('visibility','visible');
-        	$(".anima-h").addClass('animated bounceInLeft');
-        	$(".anima-i").css('visibility','visible');
-        	$(".anima-i").addClass('animated bounceInRight');		 
-        }
-
-        if($(window).scrollTop() + $(window).height() > $(document).height()-100) {
-        	$(".anima-rino").addClass('animated wobble');
-     	}
-	});
 
 } )( jQuery );

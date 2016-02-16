@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 Theme Name: Rastros
 Theme URI: http://underscores.me/
@@ -26,21 +25,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   text-align: center;
   /* 
   HOME 
-  */
-  /* 
-  SOBRE
-  */
-  /* 
-  MOBIDATA
-  */
-  /* 
-  SOLU├ç├òES
-  */
-  /* 
-  TRACKING
-  */
-  /* 
-  BLOG
   */ }
   #page a:hover {
     text-decoration: none;
@@ -243,291 +227,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: block; } }
   #page section#banner {
     margin-bottom: 40px; }
-  #page section#tracking-buscar {
-    margin-bottom: 60px;
-    position: relative;
-    width: 100%;
-    background: -moz-linear-gradient(left, #00356b 50%, #00509c 50%, #00509c 50%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #00356b), color-stop(50%, #00509c), color-stop(50%, #00509c));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* IE10+ */
-    background: linear-gradient(to right, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00356b', endColorstr='#00509c',GradientType=1 );
-    /* IE6-9 */ }
-    #page section#tracking-buscar div.container div.news-left {
-      padding: 25px 0;
-      background-color: #00356b;
-      font-weight: bold;
-      font-size: 16px; }
-      #page section#tracking-buscar div.container div.news-left div.tracking-rastreie {
-        padding: 10px 0; }
-    #page section#tracking-buscar div.container div.news-right {
-      padding: 25px 0;
-      padding-left: 50px;
-      background-color: #00509c; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form select {
-        padding: 12px 5px;
-        border-radius: 5px;
-        border: 0;
-        display: block;
-        float: left;
-        margin-right: 10px;
-        width: 40%; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form input[type="text"] {
-        padding: 11px 5px;
-        border-radius: 5px;
-        border: 0;
-        display: block;
-        float: left;
-        margin-right: 10px;
-        width: 40%; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form .submit {
-        background: #00356b none repeat scroll 0 0;
-        border: 0;
-        border-radius: 5px;
-        font-size: 55px;
-        line-height: 34px;
-        padding: 0 12px 8px;
-        color: white;
-        display: block;
-        float: left; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
-        background: #57aaff; }
-  #page section#home-sobre {
-    padding-bottom: 60px;
-    background-image: url("images/fundo-cinza.jpg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 100%; }
-    #page section#home-sobre h1.titulo-linha {
+  #page section#home-vantagens {
+    padding-bottom: 60px; }
+    #page section#home-vantagens h1.titulo-linha {
       margin: 0 auto;
       padding-bottom: 25px; }
-    #page section#home-sobre div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-sobre h2.sobre-num {
-      font-size: 40px; }
-    #page section#home-sobre div.sobre-desc {
+    #page section#home-vantagens div.sobre-desc {
       width: 60%;
       margin: 0 auto; }
-    #page section#home-sobre p.sobre-p {
+    #page section#home-vantagens p.sobre-p {
       width: 70%;
       margin: 5px auto; }
-    #page section#home-sobre a.btn-sobre {
-      background-color: #00509b;
-      color: white;
-      border-radius: 10px;
-      display: block;
-      width: 300px;
-      padding: 20px 0;
-      margin: 0 auto; }
-    #page section#home-sobre a.btn-sobre:hover {
-      background-color: #60b2ff; }
-  #page section#home-solucoes {
+    #page section#home-vantagens div.vantagens-imagens {
+      min-height: 150px; }
+  #page section#home-vantagens-detalhes {
     padding: 60px 0;
-    background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-color: #0c72b0;
     color: white; }
-    #page section#home-solucoes h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px;
-      color: white; }
-    #page section#home-solucoes div.separador {
-      border-bottom: 1px solid white;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-solucoes div.quadro-branco {
-      background-color: white;
-      padding: 25px;
-      border-radius: 10px;
-      color: #858585; }
-      #page section#home-solucoes div.quadro-branco div.row {
-        margin-bottom: 50px; }
-        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc header {
-          font-size: 16px;
-          font-weight: bold;
-          margin: 10px 0; }
-        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc a {
-          display: block; }
-  #page section#home-mobidata {
-    padding: 60px 0;
-    background-image: url("images/fundo-verde.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100%; }
-    #page section#home-mobidata h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px; }
-    #page section#home-mobidata div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-mobidata div.anima-h img {
-      display: block; }
-    #page section#home-mobidata div.anima-h div.separadorb {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin-bottom: 25px;
-      margin-top: 25px; }
-    #page section#home-mobidata div.anima-h ul.mobi-vantagens {
-      list-style-type: none;
-      padding-left: 10px;
-      margin-bottom: 50px; }
-      #page section#home-mobidata div.anima-h ul.mobi-vantagens li {
-        margin: 10px 0; }
-        #page section#home-mobidata div.anima-h ul.mobi-vantagens li img {
-          float: left;
-          display: block;
-          margin-right: 5px; }
-        #page section#home-mobidata div.anima-h ul.mobi-vantagens li div.check-desc {
-          line-height: 14px; }
-  #page section#sobre div.container {
-    padding-bottom: 50px;
-    background-image: url("images/fundo-quemsomos.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom; }
-    #page section#sobre div.container p {
-      margin-bottom: 20px; }
-    #page section#sobre div.container p.sobre-destaque {
-      color: #00509c;
-      font-weight: bold;
-      font-size: 18px; }
-    #page section#sobre div.container h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px; }
-    #page section#sobre div.container div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-  #page section#sobre-info {
-    background-color: #eff1f1;
-    padding: 50px 0;
-    margin-bottom: 50px; }
-    #page section#sobre-info h2 {
-      margin: 0;
-      margin-bottom: 10px; }
-    #page section#sobre-info h2.sobre-num {
-      font-size: 40px;
-      margin: 15px 0; }
-    #page section#sobre-info div.sobre-desc {
-      width: 60%;
-      margin: 0 auto; }
-  #page section#mobidata {
-    padding-bottom: 60px;
-    background-image: url("images/fundo-verde.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100%; }
-    #page section#mobidata h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px; }
-    #page section#mobidata div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#mobidata p.mobi-destaque, #page section#mobidata h2.mobi-destaque {
-      color: #00509c;
-      font-size: 18px;
-      font-weight: bold; }
-    #page section#mobidata ul.mobi-vantagens {
-      list-style-type: none;
-      padding-left: 10px;
-      margin-bottom: 40px;
-      margin-top: 30px; }
-      #page section#mobidata ul.mobi-vantagens li {
-        margin: 10px 0; }
-        #page section#mobidata ul.mobi-vantagens li img {
-          float: left;
-          display: block;
-          margin-right: 5px; }
-        #page section#mobidata ul.mobi-vantagens li div.check-desc {
-          line-height: 14px; }
-  #page section#title-solucoes h1.titulo-linha {
-    margin: 0;
-    padding-bottom: 25px; }
-  #page section#title-solucoes div.separador {
-    border-bottom: 2px solid #eff2f1;
-    width: 350px;
-    margin: 0 auto;
-    margin-bottom: 25px; }
-  #page section#solucoes {
-    padding: 60px 0;
-    background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-bottom: 60px;
-    margin-top: 25px; }
-    #page section#solucoes div.quadro-branco {
-      background-color: white;
-      padding: 25px;
-      border-radius: 10px;
-      color: #858585; }
-      #page section#solucoes div.quadro-branco div.row {
-        margin-bottom: 50px; }
-        #page section#solucoes div.quadro-branco div.row div.solucoes-desc header {
-          font-size: 16px;
-          font-weight: bold;
-          margin: 10px 0; }
-        #page section#solucoes div.quadro-branco div.row div.solucoes-desc a {
-          display: block; }
-  #page section#blog article.linha-blog {
-    border-bottom: 2px solid #e3e3e3;
-    padding-bottom: 15px; }
-  #page section#blog article.article-single {
-    margin-bottom: 50px; }
-  #page section#blog .confira {
-    margin-top: 20px;
-    font-weight: bold; }
-  #page section#blog div.paginacao {
-    margin: 50px 0; }
-  #page section#blog a {
-    color: #00509c; }
-  #page section#blog a:hover {
-    color: #6696c3; }
-  #page section#contato-pag {
-    padding-bottom: 50px; }
-    #page section#contato-pag div.info-right {
-      margin-top: 25px;
-      background-color: #00356b;
-      color: white;
-      padding: 25px; }
-  @media (max-width: 991px) {
-    #page section#home-sobre {
-      background-size: auto !important; }
-    #page div.row {
-      margin-bottom: 0 !important; }
-    #page section#home-solucoes {
-      background-size: auto !important; }
-      #page section#home-solucoes h1.titulo-linha {
-        color: #858585 !important; }
-      #page section#home-solucoes div.separador {
-        border-bottom: 2px solid #eff2f1 !important; }
-      #page section#home-solucoes p {
-        color: #858585 !important; }
-      #page section#home-solucoes div.quadro-branco a {
-        margin-bottom: 25px !important; }
-    #page section#home-mobidata {
-      background-size: auto !important; }
-      #page section#home-mobidata div.anima-i {
-        display: none; }
-    #page section#sobre div.container {
-      background-image: none; } }
   #page section#footer {
     background-color: #00356b;
     padding: 50px 0;
