@@ -148,6 +148,45 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
               display: block; }
             #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel strong {
               font-size: 15px; }
+  #page section#header nav#sembanner {
+    padding: 25px 0;
+    position: static; }
+    #page section#header nav#sembanner div.fundo-azul {
+      background-color: #0073b4; }
+      #page section#header nav#sembanner div.fundo-azul div.logo-container {
+        background-color: white;
+        padding: 15px 25px; }
+      #page section#header nav#sembanner div.fundo-azul div.menu-container {
+        padding: 15px 25px;
+        padding-right: 35px; }
+        #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header {
+          margin-top: 20px; }
+          #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op {
+            float: right;
+            margin-right: 10px;
+            padding-top: 8px;
+            color: white; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op a {
+              color: white;
+              font-size: 15px; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op a:hover {
+              color: #ffd100; }
+          #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-seta {
+            float: right;
+            margin-right: 35px;
+            padding-top: 8px; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-seta span.glyphicon-triangle-bottom {
+              color: #00beed; }
+          #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-tel {
+            float: right;
+            color: white;
+            margin-right: 35px; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-tel img {
+              margin-right: 10px;
+              margin-top: 4px;
+              display: block; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-tel strong {
+              font-size: 15px; }
   #page section#header div.formulario-header {
     position: absolute;
     right: 0;
@@ -246,6 +285,56 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 60px 0;
     background-color: #0c72b0;
     color: white; }
+  #page section#planos {
+    margin-bottom: 50px; }
+    #page section#planos div.plano-op header {
+      padding: 45px 20px;
+      padding-bottom: 25px;
+      background-color: #f1f1f1;
+      position: relative;
+      width: 100%;
+      color: #002f58; }
+      #page section#planos div.plano-op header div.titulo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -20px; }
+        #page section#planos div.plano-op header div.titulo h5 {
+          width: 70%;
+          margin: 0 auto;
+          background-color: #0061b2;
+          color: white;
+          padding: 10px;
+          font-weight: bold;
+          font-size: 17px; }
+      #page section#planos div.plano-op header div.preco {
+        color: #002f58;
+        width: 60%;
+        margin: 0 auto; }
+        #page section#planos div.plano-op header div.preco div.pos {
+          float: left;
+          margin-right: 2.5px;
+          line-height: 0.8em; }
+        #page section#planos div.plano-op header div.preco div.cifrao {
+          line-height: 1.3em;
+          font-weight: bold; }
+        #page section#planos div.plano-op header div.preco div.valor {
+          font-weight: bold;
+          font-size: 46px; }
+        #page section#planos div.plano-op header div.preco div.decimal {
+          font-weight: bold;
+          font-size: 26px; }
+        #page section#planos div.plano-op header div.preco div.periodo {
+          line-height: 1.3em; }
+      #page section#planos div.plano-op header p {
+        margin: 15px 0; }
+    #page section#planos div.plano-op div.vantagens {
+      background-color: #0061b2;
+      color: white;
+      padding-bottom: 25px; }
+      #page section#planos div.plano-op div.vantagens img {
+        margin: 0 auto;
+        margin-bottom: 25px; }
   #page section#footer {
     background-color: #0c72b0;
     padding: 50px 0;
@@ -311,6 +400,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 40px;
       height: 36px;
       display: inline-block; }
+  #page section#footer-logo {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #f1f1f1; }
   @media (max-width: 991px) {
     #page section#footer ul.menu-footer {
       display: none; } }

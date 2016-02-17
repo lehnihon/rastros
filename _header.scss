@@ -164,6 +164,71 @@ section#header{
         }
 	}
 
+    nav#sembanner{
+        padding:25px 0;
+        position:static;
+        
+        div.fundo-azul{
+            background-color:#0073b4;
+            
+            div.logo-container{
+                background-color:white;  
+                padding:15px 25px;
+            }
+
+            div.menu-container{
+                padding:15px 25px;
+                padding-right:35px;
+
+                div.menu-header{
+                    margin-top: 20px;
+
+                    div.menu-op{
+                        float:right;
+                        margin-right: 10px;
+                        padding-top:8px;
+                        color:white;
+                        
+                        a{
+                            color:white;
+                            font-size: 15px;
+                        }
+                        a:hover{
+                            color:#ffd100;
+                        }
+                    }
+                    div.menu-seta{
+                        float:right;
+                        margin-right: 35px;
+                        padding-top:8px;
+
+                        span.glyphicon-triangle-bottom{
+                            color: #00beed;
+                        }                        
+                    }
+
+                    div.menu-tel{
+                        float:right; 
+                        color:white;
+                        margin-right: 35px;
+                    
+                        img{
+                            margin-right: 10px;
+                            margin-top: 4px;
+                            display: block;
+                        }
+
+                        strong{
+                            font-size: 15px;
+                        }
+                    }
+
+                }                
+            }
+
+        }
+    }
+
     div.formulario-header{
         position: absolute;
         right: 0;

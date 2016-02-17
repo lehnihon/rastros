@@ -8,7 +8,9 @@
  */
 
 ?>
-
+	<section id="footer-logo">
+		<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo_footer.jpg"; ?>" />
+	</section>
 	<section id="footer">
 		<div class="container">
 			<div class="row"><br>
@@ -51,7 +53,7 @@
 			</div><br>
 			<div class="row">
 				<div class="col-md-6 text-left copy-text">
-					&copy; Copyright <?php echo date('Y') ?> - Data Certa
+					&copy; Copyright <?php echo date('Y') ?> - Rastrus Monitoramento e Rastreamento
 				</div>
 				<div class="col-md-3 col-md-offset-3 copy-text text-left">
 					<a target="_blank" href="http://agenciarino.com.br/">

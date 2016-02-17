@@ -42,6 +42,83 @@ section#home-vantagens-detalhes{
 
 }
 
+section#planos{
+	margin-bottom:50px;
+
+	div.plano-op{
+		header{
+			padding:45px 20px;
+			padding-bottom:25px;
+			background-color:#f1f1f1;
+			position:relative;
+			width:100%;
+			color:#002f58;
+
+			div.titulo{
+				position:absolute;
+				left:0;
+				right:0;
+				top:-20px;
+
+				h5{
+					width:70%;
+					margin:0 auto;
+					background-color:#0061b2;
+					color:white;
+					padding:10px;	
+					font-weight:bold;
+					font-size:17px;			
+				}
+			}
+
+			div.preco{
+				color:#002f58;
+				width:60%;
+				margin:0 auto;
+
+				div.pos{
+					float:left;	
+					margin-right:2.5px;		
+					line-height:0.8em;	
+				}
+
+				div.cifrao{
+					line-height:1.3em;
+					font-weight:bold;
+				}
+				div.valor{
+					
+					font-weight:bold;
+					font-size:46px;
+				}
+				div.decimal{
+					font-weight:bold;
+					font-size:26px;
+				}
+				div.periodo{
+					line-height:1.3em;
+				}
+			}
+
+			p{
+				margin:15px 0;
+			}
+		}
+
+		div.vantagens{
+			background-color:#0061b2;
+			color:white;
+			padding-bottom:25px;
+
+			img{
+				margin:0 auto;
+				margin-bottom:25px;
+			}
+		}
+
+	}
+}
+
 @media (max-width: 991px) {  
 
 }
