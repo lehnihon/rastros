@@ -38,7 +38,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	h2{
 		color:#0073b4;
-		font-size: 20px;
+		font-size: 26px;
 		font-weight: bold;		
 	}
 
@@ -46,23 +46,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'content';
 	@import 'footer';
 
-	.input-contato{
+	.input{
 		border:0;
 		padding:5px;
 		background-color: #f4f4f4;
 	}
 
-	.btn-contato{
-		background-color:#4e67cf;
+	.btn-azul-claro{
 		padding:5px 25px;
 		color:white;
 		border:0;
+		background-color:#00c6f9;
+		font-size: 16px;
+		border-radius: 6px;
+		padding:15px 25px;
 	}
 
-	.btn-contato:hover{
-		background-color:#8394dd;
+	.btn-azul-claro:hover{
+		background-color:#66dcfb;
+		color:white;
 	}
-
 }
 
 .videoWrapper {
@@ -93,14 +96,5 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-.paginacao{
-	.page-numbers{
-		padding:5px;
-		background-color:#ececec;
-	}
-	.current{
-		background-color:#ffc700;
-	}
-}
 
 

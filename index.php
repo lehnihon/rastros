@@ -71,20 +71,96 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9 col-md-offset-1">
-				<div class="vantagensdetalhes1">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />		
+				<div class="row vantagensdetalhes1">
+					<div class="col-md-4">
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />
+					</div>
+					<div class="col-md-7 col-md-offset-1 text-left">
+						<h2>Soluções para sua empresa e frota</h2>
+						<p>
+							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
+							Ideal para: <br>
+							- Locadora de veículos <br>
+							- Associações e cooperativas, <br>
+							- Frotas, <br>
+							- Transportadoras e empresas que atuam com transporte em geral, <br>
+							- Proteja seus produtos com nossas Iscas de Carga.
+						</p><br>
+						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
+					</div>		
 				</div>
+				
 				<div class="vantagensdetalhes2">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />		
+					<div class="col-md-4">
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />
+					</div>
+					<div class="col-md-7 col-md-offset-1 text-left">
+						<h2>Soluções para sua empresa e frota</h2>
+						<p>
+							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
+							Ideal para: <br>
+							- Locadora de veículos <br>
+							- Associações e cooperativas, <br>
+							- Frotas, <br>
+							- Transportadoras e empresas que atuam com transporte em geral, <br>
+							- Proteja seus produtos com nossas Iscas de Carga.
+						</p><br>
+						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
+					</div>			
 				</div>
 				<div class="vantagensdetalhes3">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />		
+					<div class="col-md-4">
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />
+					</div>
+					<div class="col-md-7 col-md-offset-1 text-left">
+						<h2>Soluções para sua empresa e frota</h2>
+						<p>
+							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
+							Ideal para: <br>
+							- Locadora de veículos <br>
+							- Associações e cooperativas, <br>
+							- Frotas, <br>
+							- Transportadoras e empresas que atuam com transporte em geral, <br>
+							- Proteja seus produtos com nossas Iscas de Carga.
+						</p><br>
+						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
+					</div>		
 				</div>
 				<div class="vantagensdetalhes4">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />		
+					<div class="col-md-4">
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />
+					</div>
+					<div class="col-md-7 col-md-offset-1 text-left">
+						<h2>Soluções para sua empresa e frota</h2>
+						<p>
+							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
+							Ideal para: <br>
+							- Locadora de veículos <br>
+							- Associações e cooperativas, <br>
+							- Frotas, <br>
+							- Transportadoras e empresas que atuam com transporte em geral, <br>
+							- Proteja seus produtos com nossas Iscas de Carga.
+						</p><br>
+						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
+					</div>		
 				</div>
 				<div class="vantagensdetalhes5">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />		
+					<div class="col-md-4">
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens_detalhes4.jpg"; ?>" />
+					</div>
+					<div class="col-md-7 col-md-offset-1 text-left">
+						<h2>Soluções para sua empresa e frota</h2>
+						<p>
+							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
+							Ideal para: <br>
+							- Locadora de veículos <br>
+							- Associações e cooperativas, <br>
+							- Frotas, <br>
+							- Transportadoras e empresas que atuam com transporte em geral, <br>
+							- Proteja seus produtos com nossas Iscas de Carga.
+						</p><br>
+						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
+					</div>			
 				</div>	
 			</div>
 		</div>	

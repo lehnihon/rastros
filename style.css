@@ -35,7 +35,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-weight: bold; }
   #page h2 {
     color: #0073b4;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold; }
   #page section#header header {
     background-color: #0073b4;
@@ -246,6 +246,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 60px 0;
     background-color: #0c72b0;
     color: white; }
+    #page section#home-vantagens-detalhes h2 {
+      color: white; }
   #page section#footer {
     background-color: #00356b;
     padding: 50px 0;
@@ -314,17 +316,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   @media (max-width: 991px) {
     #page section#footer ul.menu-footer {
       display: none; } }
-  #page .input-contato {
+  #page .input {
     border: 0;
     padding: 5px;
     background-color: #f4f4f4; }
-  #page .btn-contato {
-    background-color: #4e67cf;
+  #page .btn-azul-claro {
     padding: 5px 25px;
     color: white;
-    border: 0; }
-  #page .btn-contato:hover {
-    background-color: #8394dd; }
+    border: 0;
+    background-color: #00c6f9;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 15px 25px; }
+  #page .btn-azul-claro:hover {
+    background-color: #66dcfb;
+    color: white; }
 
 .videoWrapper {
   position: relative;
@@ -351,11 +357,5 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */ }
-
-.paginacao .page-numbers {
-  padding: 5px;
-  background-color: #ececec; }
-.paginacao .current {
-  background-color: #ffc700; }
 
 /*# sourceMappingURL=style.css.map */
