@@ -1,5 +1,5 @@
 section#footer{
-	background-color:#00356b;
+	background-color:#0c72b0;
 	padding:50px 0;
 	color: white;
 
@@ -32,7 +32,7 @@ section#footer{
 	}
     ul.redes_sociais_header{
     	padding:0;
-        height: 22px;
+        height: 36px;
         text-align: left;
         list-style:none;
         margin-bottom:0;
@@ -50,44 +50,44 @@ section#footer{
 
     ul.redes_sociais_header a{
         display: inline-block;
-        width:22px;
-        height:20px;
+        width:40px;
+        height:36px;
     }
 
     ul.redes_sociais_header .youtube{
-        background-image: url("images/redes-top.png");
+        background-image: url("images/redes_footer.jpg");
 
-        background-position: left,center;
+        background-position: 5px,center;
         background-repeat:no-repeat;
-        width:22px;
-        height:20px;
+        width:40px;
+        height:36px;
         display:inline-block;       
     }
 
     ul.redes_sociais_header .instagram{
-        background-image: url("images/redes-top.png");
-        background-position: -34px,center;
+        background-image: url("images/redes_footer.jpg");
+        background-position: -52px,center;
         background-repeat:no-repeat;
-        width:22px;
-        height:20px;
+        width:40px;
+        height:36px;
         display:inline-block;       
     }
 
     ul.redes_sociais_header .twitter{
-        background-image: url("images/redes-top.png");
-        background-position: -66px,center;
+        background-image: url("images/redes_footer.jpg");
+        background-position: -108px,center;
         background-repeat:no-repeat;
-        width:22px;
-        height:20px;
+        width:40px;
+        height:36px;
         display:inline-block;       
     }
 
     ul.redes_sociais_header .facebook{
-        background-image: url("images/redes-top.png");
-        background-position: -98px,center;
+        background-image: url("images/redes_footer.jpg");
+        background-position: -165px,center;
         background-repeat:no-repeat;
-        width:22px;
-        height:20px;
+        width:40px;
+        height:36px;
         display:inline-block;       
     }
 
