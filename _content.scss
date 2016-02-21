@@ -3,17 +3,11 @@ HOME
 */
 
 section#banner{
-	margin-bottom:40px;
+	margin-bottom:60px;
 }
 
 section#home-vantagens{
 	padding-bottom:60px;
-
-	h1.titulo-linha{
-		margin:0 auto;
-		padding-bottom:25px;
-	}
-
 
 	div.sobre-desc{
 		width: 60%;
@@ -36,7 +30,9 @@ section#home-vantagens{
 }
 
 section#home-vantagens-detalhes{
+	margin-bottom:60px;
 	padding:60px 0;
+	padding-bottom:80px;
 	background-color:#0c72b0;
     color:white;
 
@@ -47,7 +43,7 @@ section#home-vantagens-detalhes{
 }
 
 section#planos{
-	margin-bottom:50px;
+	margin-bottom:60px;
 
 	div.plano-op{
 		header{
@@ -107,23 +103,71 @@ section#planos{
 			p{
 				margin:15px 0;
 			}
+
+			a.btn-amarelo{
+				width: 135px;
+				display: block;
+				margin:0px auto;
+				margin-top: 10px;
+			}
+
 		}
 
 		div.vantagens{
 			background-color:#0061b2;
 			color:white;
-			padding-bottom:25px;
+			padding-bottom:35px;
 
 			img{
 				margin:0 auto;
 				margin-bottom:25px;
+			}
+
+			a.btn-azul-claro-q{
+				width: 150px;
+				display: block;
+				margin:0 auto;
+				margin-top: 25px;
 			}
 		}
 
 	}
 }
 
+section#home-solucoesv{
+	margin-bottom:80px;
+
+}
+
+section#home-solucoesf{
+	margin-bottom:60px;
+	padding:60px 0;
+	padding-bottom:80px;
+	background-color:#f1f1f1;
+
+}
+
 @media (max-width: 991px) {  
+	section#home-vantagens{
+		padding-bottom:0 !important;
+	}
+
+	section#home-solucoesv{
+		.col-md-4{
+			margin-bottom: 25px;
+		}
+	}
+	section#home-solucoesf{
+		.col-md-4{
+			margin-bottom: 25px;
+		}
+	}
+	section#planos{
+		.col-md-4{
+			margin-bottom: 50px;
+		}
+	}
+
 
 }
 

@@ -96,7 +96,7 @@ section#header{
 
 	}
 
-	nav{
+	nav#header-nav{
         padding:25px 0;
         position: absolute;
         right: 0;
@@ -245,15 +245,14 @@ section#header{
                 color:white;
                 font-weight: normal;
                 line-height: 28px;
+                font-size: 20px;
             }
         }    
 
         div.form-conteudo{
             padding:10px;
-            background-color:#007cc1;
             color:white;
-            opacity: 0.9;
-            filter: alpha(opacity=90); /* For IE8 and earlier */
+            background: rgba(0,124,193,0.7);
         }    
     }
 }
@@ -307,6 +306,12 @@ section#form-responsivo{
     div.menu-container{
         display: none !important;
     }
+
+    nav#header-nav{
+        position:static !important;
+        padding: 5px !important;
+    }
+
 
 }
 

@@ -32,11 +32,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h1 {
     color: #0073b4;
     font-size: 26px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px; }
   #page h2 {
     color: #0073b4;
     font-size: 26px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px; }
   #page section#header header {
     background-color: #0073b4;
     color: white; }
@@ -106,47 +110,47 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       font-size: 12px; }
     #page section#header header .btn-login:hover {
       background-color: #ffdd6b; }
-  #page section#header nav {
+  #page section#header nav#header-nav {
     padding: 25px 0;
     position: absolute;
     right: 0;
     left: 0;
     z-index: 1030; }
-    #page section#header nav div.fundo-azul {
+    #page section#header nav#header-nav div.fundo-azul {
       background-color: #0073b4; }
-      #page section#header nav div.fundo-azul div.logo-container {
+      #page section#header nav#header-nav div.fundo-azul div.logo-container {
         background-color: white;
         padding: 15px 25px; }
-      #page section#header nav div.fundo-azul div.menu-container {
+      #page section#header nav#header-nav div.fundo-azul div.menu-container {
         padding: 15px 25px;
         padding-right: 35px; }
-        #page section#header nav div.fundo-azul div.menu-container div.menu-header {
+        #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header {
           margin-top: 20px; }
-          #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-op {
+          #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op {
             float: right;
             margin-right: 10px;
             padding-top: 8px;
             color: white; }
-            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-op a {
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op a {
               color: white;
               font-size: 15px; }
-            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-op a:hover {
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op a:hover {
               color: #ffd100; }
-          #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-seta {
+          #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-seta {
             float: right;
             margin-right: 35px;
             padding-top: 8px; }
-            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-seta span.glyphicon-triangle-bottom {
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-seta span.glyphicon-triangle-bottom {
               color: #00beed; }
-          #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel {
+          #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-tel {
             float: right;
             color: white;
             margin-right: 35px; }
-            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel img {
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-tel img {
               margin-right: 10px;
               margin-top: 4px;
               display: block; }
-            #page section#header nav div.fundo-azul div.menu-container div.menu-header div.menu-tel strong {
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-tel strong {
               font-size: 15px; }
   #page section#header nav#sembanner {
     padding: 25px 0;
@@ -200,14 +204,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         margin: 0;
         color: white;
         font-weight: normal;
-        line-height: 28px; }
+        line-height: 28px;
+        font-size: 20px; }
     #page section#header div.formulario-header div.form-conteudo {
       padding: 10px;
-      background-color: #007cc1;
       color: white;
-      opacity: 0.9;
-      filter: alpha(opacity=90);
-      /* For IE8 and earlier */ }
+      background: rgba(0, 124, 193, 0.7); }
   #page section#form-responsivo {
     margin-bottom: 50px; }
     #page section#form-responsivo header {
@@ -237,7 +239,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: block;
       padding: 10px; }
     #page div.menu-container {
-      display: none !important; } }
+      display: none !important; }
+    #page nav#header-nav {
+      position: static !important;
+      padding: 5px !important; } }
   @media (max-width: 1220px) {
     #page div.menu-op a {
       font-size: 14px !important; }
@@ -265,12 +270,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page ul.menu-header {
       display: block; } }
   #page section#banner {
-    margin-bottom: 40px; }
+    margin-bottom: 60px; }
   #page section#home-vantagens {
     padding-bottom: 60px; }
-    #page section#home-vantagens h1.titulo-linha {
-      margin: 0 auto;
-      padding-bottom: 25px; }
     #page section#home-vantagens div.sobre-desc {
       width: 60%;
       margin: 0 auto; }
@@ -282,13 +284,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#home-vantagens div.vantagens-imagens img {
         cursor: pointer; }
   #page section#home-vantagens-detalhes {
+    margin-bottom: 60px;
     padding: 60px 0;
+    padding-bottom: 80px;
     background-color: #0c72b0;
     color: white; }
     #page section#home-vantagens-detalhes h2 {
       color: white; }
   #page section#planos {
-    margin-bottom: 50px; }
+    margin-bottom: 60px; }
     #page section#planos div.plano-op header {
       padding: 45px 20px;
       padding-bottom: 25px;
@@ -330,13 +334,39 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           line-height: 1.3em; }
       #page section#planos div.plano-op header p {
         margin: 15px 0; }
+      #page section#planos div.plano-op header a.btn-amarelo {
+        width: 135px;
+        display: block;
+        margin: 0px auto;
+        margin-top: 10px; }
     #page section#planos div.plano-op div.vantagens {
       background-color: #0061b2;
       color: white;
-      padding-bottom: 25px; }
+      padding-bottom: 35px; }
       #page section#planos div.plano-op div.vantagens img {
         margin: 0 auto;
         margin-bottom: 25px; }
+      #page section#planos div.plano-op div.vantagens a.btn-azul-claro-q {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px; }
+  #page section#home-solucoesv {
+    margin-bottom: 80px; }
+  #page section#home-solucoesf {
+    margin-bottom: 60px;
+    padding: 60px 0;
+    padding-bottom: 80px;
+    background-color: #f1f1f1; }
+  @media (max-width: 991px) {
+    #page section#home-vantagens {
+      padding-bottom: 0 !important; }
+    #page section#home-solucoesv .col-md-4 {
+      margin-bottom: 25px; }
+    #page section#home-solucoesf .col-md-4 {
+      margin-bottom: 25px; }
+    #page section#planos .col-md-4 {
+      margin-bottom: 50px; } }
   #page section#footer {
     background-color: #0c72b0;
     padding: 50px 0;
@@ -424,6 +454,37 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .btn-azul-claro:hover {
     background-color: #66dcfb;
     color: white; }
+  #page .btn-azul-claro-q {
+    padding: 5px 25px;
+    color: white;
+    border: 0;
+    background-color: #00c6f9;
+    font-size: 16px;
+    padding: 15px 25px; }
+  #page .btn-azul-claro-q:hover {
+    background-color: #66dcfb;
+    color: white; }
+  #page .btn-azul {
+    padding: 5px 25px;
+    color: white;
+    border: 0;
+    background-color: #0073b4;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 15px 25px; }
+  #page .btn-azul:hover {
+    background-color: #66ABD2;
+    color: white; }
+  #page .btn-amarelo {
+    padding: 5px 25px;
+    color: #0061b6;
+    border: 0;
+    background-color: #ffd100;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px; }
+  #page .btn-amarelo:hover {
+    background-color: #ffe366; }
 
 .videoWrapper {
   position: relative;
