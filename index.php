@@ -76,15 +76,11 @@ get_header(); ?>
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1.jpg"; ?>" />
 					</div>
 					<div class="col-md-7 col-md-offset-1 text-left">
-						<h2>Soluções para sua empresa e frota</h2>
+						<h2>Menor custo do mercado</h2>
 						<p>
-							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
-							Ideal para: <br>
-							- Locadora de veículos <br>
-							- Associações e cooperativas, <br>
-							- Frotas, <br>
-							- Transportadoras e empresas que atuam com transporte em geral, <br>
-							- Proteja seus produtos com nossas Iscas de Carga.
+							O serviço de rastreamento e monitoramento da Rastrus
+							tem o menor preço do mercado. <br>
+							É mais simples de contratar, você economiza e fica tranquilo.
 						</p><br>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>		
@@ -95,15 +91,11 @@ get_header(); ?>
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2.jpg"; ?>" />
 					</div>
 					<div class="col-md-7 col-md-offset-1 text-left">
-						<h2>Soluções para sua empresa e frota</h2>
+						<h2>Mais segurança para você!</h2>
 						<p>
-							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
-							Ideal para: <br>
-							- Locadora de veículos <br>
-							- Associações e cooperativas, <br>
-							- Frotas, <br>
-							- Transportadoras e empresas que atuam com transporte em geral, <br>
-							- Proteja seus produtos com nossas Iscas de Carga.
+							A Rastrus realiza a instalação do rastreador. <br>
+							Essa é a certeza de mais segurança para você e 
+							sua família.
 						</p><br>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>			
@@ -113,15 +105,15 @@ get_header(); ?>
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3.jpg"; ?>" />
 					</div>
 					<div class="col-md-7 col-md-offset-1 text-left">
-						<h2>Soluções para sua empresa e frota</h2>
+						<h2>Soluções para você</h2>
 						<p>
-							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
-							Ideal para: <br>
-							- Locadora de veículos <br>
-							- Associações e cooperativas, <br>
-							- Frotas, <br>
-							- Transportadoras e empresas que atuam com transporte em geral, <br>
-							- Proteja seus produtos com nossas Iscas de Carga.
+							A Rastrus tem a solução perfeito para você. <br>
+							Com nosso rastreador no seu veículo, você tem total
+							controle e segurança, confira as vantagens: <br>
+							- Rastreamento em tempo real, <br> 
+							- Auto-monitoramente 24 horas por dia, <br>
+							- Controle de rotas, <br>	
+							- Garantia do serviço de entrega. 
 						</p><br>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>		
@@ -149,15 +141,11 @@ get_header(); ?>
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5.jpg"; ?>" />
 					</div>
 					<div class="col-md-7 col-md-offset-1 text-left">
-						<h2>Soluções para sua empresa e frota</h2>
+						<h2>Abrangência Nacional</h2>
 						<p>
-							A Rastrus também tem a solução perfeita para sua empresa e frota. <br>
-							Ideal para: <br>
-							- Locadora de veículos <br>
-							- Associações e cooperativas, <br>
-							- Frotas, <br>
-							- Transportadoras e empresas que atuam com transporte em geral, <br>
-							- Proteja seus produtos com nossas Iscas de Carga.
+							A Rastrus tem cobertura garantida em todo o território 
+							nacional. <br>
+							Assim você fica protegido e mais tranquilo aonde estiver. 
 						</p><br>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>			
@@ -180,11 +168,11 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-1">
+			<div class="col-md-4 col-md-offset-2">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_01.jpg"; ?>" /><br>
 				<a href="#" class="btn-azul-claro">PARA SEU AUTOMÓVEL</a>				
 			</div>
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_02.jpg"; ?>" /><br>
 				<a href="#" class="btn-azul-claro">PARA SUA MOTO</a>				
 			</div>			
@@ -205,11 +193,11 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-1">
+			<div class="col-md-4 col-md-offset-2">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_01.jpg"; ?>" /><br>
 				<a href="#" class="btn-azul">SOLUÇÕES PARA CARGAS</a>				
 			</div>
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_02.jpg"; ?>" /><br>
 				<a href="#" class="btn-azul">SOLUÇÕES PARA FROTAS</a>				
 			</div>			
@@ -246,7 +234,7 @@ get_header(); ?>
 						<p>VANTAGEM INCLUSA 03</p>
 						<p>VANTAGEM INCLUSA 04</p>
 						<p>VANTAGEM INCLUSA 05</p>
-						<a class="btn-azul-claro-q" href="#">CONTRATAR</a>
+						<a class="btn-azul-claro-qb" href="#">VER DETALHES</a>
 					</div>					
 				</div>
 			</div>
@@ -270,7 +258,7 @@ get_header(); ?>
 						<p>VANTAGEM INCLUSA 03</p>
 						<p>VANTAGEM INCLUSA 04</p>
 						<p>VANTAGEM INCLUSA 05</p>
-						<a class="btn-azul-claro-q" href="#">CONTRATAR</a>
+						<a class="btn-azul-claro-qb" href="#">VER DETALHES</a>
 					</div>					
 				</div>
 			</div>
@@ -294,7 +282,7 @@ get_header(); ?>
 						<p>VANTAGEM INCLUSA 03</p>
 						<p>VANTAGEM INCLUSA 04</p>
 						<p>VANTAGEM INCLUSA 05</p>
-						<a class="btn-azul-claro-q" href="#">CONTRATAR</a>
+						<a class="btn-azul-claro-qb" href="#">VER DETALHES</a>
 					</div>					
 				</div>
 			</div>

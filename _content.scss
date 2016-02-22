@@ -129,6 +129,13 @@ section#planos{
 				margin:0 auto;
 				margin-top: 25px;
 			}
+			a.btn-azul-claro-qb{
+				width: 190px;
+				display: block;
+				margin:0 auto;
+				margin-top: 25px;
+			}
+
 		}
 
 	}
@@ -145,6 +152,10 @@ section#home-solucoesf{
 	padding-bottom:80px;
 	background-color:#f1f1f1;
 
+}
+
+section#descricao-solucoes{
+	text-align:left;
 }
 
 @media (max-width: 991px) {  
@@ -167,7 +178,22 @@ section#home-solucoesf{
 			margin-bottom: 50px;
 		}
 	}
+	
+	section#entre-contato{
 
+		.btn-azul-q{
+			margin:0 auto;
+		}
+	}
+
+	section#home-vantagens-detalhes{
+		img{
+			margin:0 auto;
+		}
+		h2{
+			margin-top: 25px !important;
+		}
+	}
 
 }
 

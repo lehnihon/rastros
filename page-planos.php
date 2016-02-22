@@ -21,7 +21,7 @@ get_header('sembanner'); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>MÍNIMO DE 6 MESES</p>
-						<a href="#">ASSINE JÁ</a>
+						<a class="btn-amarelo" href="#">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -30,7 +30,7 @@ get_header('sembanner'); ?>
 						<p>VANTAGEM INCLUSA 03</p>
 						<p>VANTAGEM INCLUSA 04</p>
 						<p>VANTAGEM INCLUSA 05</p>
-						<a href="#">CONTRATAR</a>
+						<a class="btn-azul-claro-q" href="#">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
@@ -45,7 +45,7 @@ get_header('sembanner'); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>MÍNIMO DE 6 MESES</p>
-						<a href="#">ASSINE JÁ</a>
+						<a class="btn-amarelo" href="#">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -54,7 +54,7 @@ get_header('sembanner'); ?>
 						<p>VANTAGEM INCLUSA 03</p>
 						<p>VANTAGEM INCLUSA 04</p>
 						<p>VANTAGEM INCLUSA 05</p>
-						<a href="#">CONTRATAR</a>
+						<a class="btn-azul-claro-q" href="#">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
@@ -69,7 +69,7 @@ get_header('sembanner'); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>MÍNIMO DE 6 MESES</p>
-						<a href="#">ASSINE JÁ</a>
+						<a class="btn-amarelo" href="#">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -78,7 +78,7 @@ get_header('sembanner'); ?>
 						<p>VANTAGEM INCLUSA 03</p>
 						<p>VANTAGEM INCLUSA 04</p>
 						<p>VANTAGEM INCLUSA 05</p>
-						<a href="#">CONTRATAR</a>
+						<a class="btn-azul-claro-q" href="#">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
@@ -93,7 +93,7 @@ get_header('sembanner'); ?>
 				Não pode ser atendido pelos planos acima? <br>
 				<strong>Gostaríamos de entender as suas necessidades!</strong>
 			</div>
-			<div class="col-md-6 text-left"><a href="#">ENTRE EM CONTATO</a></div>
+			<div class="col-md-6 text-left"><a class="btn-azul-q" href="#">ENTRE EM CONTATO</a></div>
 		</div>
 	</div>
 </section>
