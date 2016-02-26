@@ -10,11 +10,6 @@
 		    }
 		});
 
-                $(".vantagensdetalhes2").css('display','none');
-                $(".vantagensdetalhes3").css('display','none');
-                $(".vantagensdetalhes4").css('display','none');
-                $(".vantagensdetalhes5").css('display','none');
-
                 $(".vantagens1").on("click",function(){
                 	$(".vantagens2").attr("src", dirbase+"/images/vantagens2a.jpg" );
                 	$(".vantagens3").attr("src", dirbase+"/images/vantagens3a.jpg" );

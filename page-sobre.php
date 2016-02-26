@@ -1,74 +1,85 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The main template file.
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package site
  */
 
 get_header(); ?>
 
-<section id="sobre">
-	<div class="container">
-		<div class="row">
-			<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
-			<div class="separador"></div>
-		</div>
-		<div class="row"><br>
-			<div class="col-md-7 text-left">
-				<p class="sobre-destaque">
-					Vivência acumulada de mais de 20 anos na gestão da cadeia logística, e-commerce, movimentação e transferência de cargas sensíveis, 
-					manuseio e entrega de produtos valorados (benefícios), courier, cross-docking, logística reversa, fulfillment e armazenagem.					
-				</p>
-				<p>
-					<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</strong>
-				</p>
-				<p>
-					Com nossas soluções em manuseio, transporte, courier, logística reversa, impressão com dados variáveis e gestão postal, seus prazos são levados a sério.
-				</p>
-				<p>
-					<strong>Interligando bairros, cidades e estados, a Data Certa oferece mais uma ferramenta de gerenciamento, rastreamento e baixa remota que permite a você um pleno acompanhamento das etapas 
-					do processo no menor tempo de trânsito.</strong>
-				</p>
-				<p>
-					Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto do início ao destino final.
-				</p>
-			</div>
-		</div><br>
-		<div class="row text-left">
-			<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/depoimento.png"; ?>" />			
-		</div>		
-	</div>
-</section>
-
-<section id="sobre-info">
-	<div class="container">
-		<div class="row">
-			<h2>Informações interessantes sobre nós</h2>
-		</div><br>		
-		<div class="row">
-			<div class="col-md-4">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
-				<h2 class="sobre-num">500.000</h2>
-				<div class="sobre-desc">Volumes entregues de encomendas por ano.</div>
-			</div>
-			<div class="col-md-4">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-caminhao.png"; ?>" />
-				<h2 class="sobre-num">4.000km</h2>
-				<div class="sobre-desc">Percorridos para realização das entregas por dia.</div>
-
-			</div>
-			<div class="col-md-4">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-graficos.png"; ?>" />
-				<h2 class="sobre-num">99,7%</h2>
-				<div class="sobre-desc"><strong>SLA</strong> Prazo de entrega.</div>
-			</div>
+<section id="banner">
+	<div class="container-fluid">
+		<div class="row">		
+			<?php putRevSlider( "banner-index" ) ?>		
 		</div>
 	</div>
 </section>
+
+<section id="form-responsivo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-8 col-md-4">
+				<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
+				<div class="form-conteudo">
+					formulario
+				</div>						
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="descricao-solucoes">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Institucional</h3>
+				<p>
+					Oferecemos as melhores soluções em rastreamento e monitoramento para carros, 
+					motos, caminhões, cargas, frotas, barcos e containers. 
+				</p>
+				<p>
+					Atuamos nesse segmento há X anos, sempre colocando em prioridade a segurança 
+					e a tranquilidade dos nossos clientes. <br/>
+					Os rastreadores e bloqueadores oferecidos pela Rastrus são de cobertura nacional, 
+					utilizando tecnologia GSM e GPRS, dessa forma impossibilita que ladrões desativem.					
+				</p>
+				<p>
+					Com a crescente violência urbana, não basta ter apenas um seguro para o veículo, 
+					pois com ele podemos recuperar o valor do bem, mas infelizmente em casos de 
+					assaltos, sequestros ou roubo de cargas a maior vítima pode ser qualquer um de nós. 
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p>
+					A Rastrus pensando no mercado doméstico e corporativo, criou pacotes de 
+					soluções para auxiliar a segurança do condutor e da carga, com um sistema que
+					utiliza rastreador, localizador e bloqueador via satélite, é possível o simples 
+					monitoramento de rota e velocidade do veículo, o rastreamento das cargas e até 
+					mesmo o travamento de portas e baús de caminhões.
+				</p>
+				<p>
+					Nossa equipe trabalha de forma sinérgica e integrada para que todos os processos, 
+					desde o primeiro contato realizado até a instalação e monitoramento, tragam 
+					resultados significativos para você e sua empresa.
+				</p>
+				<p>Implante nosso sistema e comprove!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				botoes
+			</div>
+		</div>
+	</div>
+</section>
+
+
 
 <?php get_footer(); ?>

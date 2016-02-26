@@ -86,7 +86,7 @@ get_header(); ?>
 					</div>		
 				</div>
 				
-				<div class="vantagensdetalhes2">
+				<div class="vantagensdetalhes2" style="display:none">
 					<div class="col-md-4">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2.jpg"; ?>" />
 					</div>
@@ -100,7 +100,7 @@ get_header(); ?>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>			
 				</div>
-				<div class="vantagensdetalhes3">
+				<div class="vantagensdetalhes3" style="display:none">
 					<div class="col-md-4">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3.jpg"; ?>" />
 					</div>
@@ -118,7 +118,7 @@ get_header(); ?>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>		
 				</div>
-				<div class="vantagensdetalhes4">
+				<div class="vantagensdetalhes4" style="display:none">
 					<div class="col-md-4">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4.jpg"; ?>" />
 					</div>
@@ -136,7 +136,7 @@ get_header(); ?>
 						<a href="#" class="btn-azul-claro">SOLICITE UM ORÇAMENTO</a>
 					</div>		
 				</div>
-				<div class="vantagensdetalhes5">
+				<div class="vantagensdetalhes5" style="display:none">
 					<div class="col-md-4">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5.jpg"; ?>" />
 					</div>
@@ -168,7 +168,11 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4">
+				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_03.jpg"; ?>" /><br>
+				<a href="#" class="btn-azul-claro">TRANSPORTE MARÍTIMO</a>				
+			</div>
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_01.jpg"; ?>" /><br>
 				<a href="#" class="btn-azul-claro">PARA SEU AUTOMÓVEL</a>				
 			</div>
@@ -193,7 +197,11 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4">
+				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_03.jpg"; ?>" /><br>
+				<a href="#" class="btn-azul">CONTAINERS</a>				
+			</div>
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_01.jpg"; ?>" /><br>
 				<a href="#" class="btn-azul">SOLUÇÕES PARA CARGAS</a>				
 			</div>
@@ -225,7 +233,7 @@ get_header(); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>MÍNIMO DE 6 MESES</p>
-						<a class="btn-amarelo" href="#">ASSINE JÁ</a>
+						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModal">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -289,5 +297,24 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+				...
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>
