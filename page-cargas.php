@@ -86,10 +86,16 @@ get_header(); ?>
 					- Atende todo o território nacional. <br>								
 				</p>
 			</div>
-		</div>
+		</div><br><br>
 		<div class="row">
-			<div class="col-md-12">
-				botoes
+			<div class="col-md-4">
+				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul-claro">SOLUÇÕES PARA CONTAINERS</a>
+			</div>
+			<div class="col-md-4">
+				<a href="<?php echo home_url( '/' )."empresa"; ?>" class="btn-azul-claro">SOLUÇÕES PARA SUA FROTA</a>
+			</div>
+			<div class="col-md-4">
+				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
 			</div>
 		</div>
 	</div>

@@ -170,15 +170,15 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_03.jpg"; ?>" /><br>
-				<a href="#" class="btn-azul-claro">TRANSPORTE MARÍTIMO</a>				
+				<a href="<?php echo home_url( '/' )."embarcacoes"; ?>" class="btn-azul-claro">TRANSPORTE MARÍTIMO</a>				
 			</div>
 			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_01.jpg"; ?>" /><br>
-				<a href="#" class="btn-azul-claro">PARA SEU AUTOMÓVEL</a>				
+				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">PARA SEU AUTOMÓVEL</a>				
 			</div>
 			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_02.jpg"; ?>" /><br>
-				<a href="#" class="btn-azul-claro">PARA SUA MOTO</a>				
+				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">PARA SUA MOTO</a>				
 			</div>			
 		</div>	
 	</div>
@@ -199,15 +199,15 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_03.jpg"; ?>" /><br>
-				<a href="#" class="btn-azul">CONTAINERS</a>				
+				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul">CONTAINERS</a>				
 			</div>
 			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_01.jpg"; ?>" /><br>
-				<a href="#" class="btn-azul">SOLUÇÕES PARA CARGAS</a>				
+				<a href="<?php echo home_url( '/' )."cargas"; ?>" class="btn-azul">SOLUÇÕES PARA CARGAS</a>				
 			</div>
 			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_02.jpg"; ?>" /><br>
-				<a href="#" class="btn-azul">SOLUÇÕES PARA FROTAS</a>				
+				<a href="<?php echo home_url( '/' )."empresa"; ?>" class="btn-azul">SOLUÇÕES PARA FROTAS</a>				
 			</div>			
 		</div>	
 	</div>
@@ -225,72 +225,72 @@ get_header(); ?>
 			<div class="col-md-4">
 				<div class="plano-op">
 					<header>
-						<div class="titulo"><h5>NOME PLANO 1</h5></div>
+						<div class="titulo"><h5>PLANO 1</h5></div>
 						<div class="preco clearfix">
 							<div class="cifrao pos">R$</div> 
-							<div class="valor pos">100</div>
+							<div class="valor pos">79</div>
 							<div class="decimal pos">,90</div>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
-						<p>MÍNIMO DE 6 MESES</p>
-						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModal">ASSINE JÁ</a>
+						<p>MÍNIMO DE 12 MESES</p>
+						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
-						<p>VANTAGEM INCLUSA 01</p>
-						<p>VANTAGEM INCLUSA 02</p>
-						<p>VANTAGEM INCLUSA 03</p>
-						<p>VANTAGEM INCLUSA 04</p>
-						<p>VANTAGEM INCLUSA 05</p>
-						<a class="btn-azul-claro-qb" href="#">VER DETALHES</a>
+						<p>COBERTURA NACIONAL</p>
+						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
+						<p>INSTALAÇÃO EM DOMICÍLIO</p>
+						<p>HISTÓRICO DE POSIÇÕES</p>
+						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
+						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="plano-op">
 					<header>
-						<div class="titulo"><h5>NOME PLANO 2</h5></div>
+						<div class="titulo"><h5>PLANO 2</h5></div>
 						<div class="preco clearfix">
 							<div class="cifrao pos">R$</div> 
-							<div class="valor pos">100</div>
+							<div class="valor pos">49</div>
 							<div class="decimal pos">,90</div>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
-						<p>MÍNIMO DE 6 MESES</p>
-						<a class="btn-amarelo" href="#">ASSINE JÁ</a>
+						<p>+$300,00 pelo custo do rastreador</p>
+						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModalb">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
-						<p>VANTAGEM INCLUSA 01</p>
-						<p>VANTAGEM INCLUSA 02</p>
-						<p>VANTAGEM INCLUSA 03</p>
-						<p>VANTAGEM INCLUSA 04</p>
-						<p>VANTAGEM INCLUSA 05</p>
-						<a class="btn-azul-claro-qb" href="#">VER DETALHES</a>
+						<p>COBERTURA NACIONAL</p>
+						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
+						<p>INSTALAÇÃO EM DOMICÍLIO</p>
+						<p>HISTÓRICO DE POSIÇÕES</p>
+						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
+						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="plano-op">
 					<header>
-						<div class="titulo"><h5>NOME PLANO 3</h5></div>
+						<div class="titulo"><h5>PLANO 3 - ISCA OU MOTO</h5></div>
 						<div class="preco clearfix">
 							<div class="cifrao pos">R$</div> 
-							<div class="valor pos">100</div>
+							<div class="valor pos">49</div>
 							<div class="decimal pos">,90</div>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
-						<p>MÍNIMO DE 6 MESES</p>
-						<a class="btn-amarelo" href="#">ASSINE JÁ</a>
+						<p>+R$500 pelo custo do rastreador</p>
+						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModalc">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
-						<p>VANTAGEM INCLUSA 01</p>
-						<p>VANTAGEM INCLUSA 02</p>
-						<p>VANTAGEM INCLUSA 03</p>
-						<p>VANTAGEM INCLUSA 04</p>
-						<p>VANTAGEM INCLUSA 05</p>
-						<a class="btn-azul-claro-qb" href="#">VER DETALHES</a>
+						<p>COBERTURA NACIONAL</p>
+						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
+						<p>INSTALAÇÃO EM DOMICÍLIO</p>
+						<p>HISTÓRICO DE POSIÇÕES</p>
+						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
+						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
@@ -299,19 +299,59 @@ get_header(); ?>
 </section>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModala" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-				</div>
-				<div class="modal-body">
-				...
-				</div>
-				<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+			<div class="modal-body text-left">
+				<h3>Aproveite!</h3>
+				<p>
+					<strong>Crie sua conta agora mesmo.</strong><br>
+					Preencha todos os campos abaixo e entraremos em contato com você!
+				</p>
+				<p>
+					form
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModalb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body text-left">
+				<h3>Aproveite!</h3>
+				<p>
+					<strong>Crie sua conta agora mesmo.</strong><br>
+					Preencha todos os campos abaixo e entraremos em contato com você!
+				</p>
+				<p>
+					form
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModalc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body text-left">
+				<h3>Aproveite!</h3>
+				<p>
+					<strong>Crie sua conta agora mesmo.</strong><br>
+					Preencha todos os campos abaixo e entraremos em contato com você!
+				</p>
+				<p>
+					form
+				</p>
 			</div>
 		</div>
 	</div>

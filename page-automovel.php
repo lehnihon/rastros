@@ -88,10 +88,13 @@ get_header(); ?>
 					- Transmissão via GPS/GPRS		<br>			
 				</p>
 			</div>
-		</div>
+		</div><br><br>
 		<div class="row">
-			<div class="col-md-12">
-				botoes
+			<div class="col-md-4 col-md-offset-2">
+				<a href="<?php echo home_url( '/' )."embarcacoes"; ?>" class="btn-azul-claro">TRANSPORTE NÁUTICO</a>
+			</div>
+			<div class="col-md-4">
+				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
 			</div>
 		</div>
 	</div>

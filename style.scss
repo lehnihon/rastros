@@ -153,6 +153,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		background-color:#ffe366;
 	}
 
+	.modal-dialog{
+		margin-top: 100px;
+
+		.modal-content{
+			padding:25px;
+
+			.modal-header{
+				border:0;
+			}
+		}
+	}
+
 }
 
 .videoWrapper {

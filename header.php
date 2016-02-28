@@ -60,8 +60,8 @@
 								</button>
 								<ul class="dropdown-menu">
 								<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
-								><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">PLANOS</a></li
-								><li><a href="<?php echo home_url( '/' )."servicos"; ?>">RASTREAMENTO</a></li>
+								><li><a href="<?php echo home_url( '/' )."planos"; ?>">PLANOS</a></li
+								><li><a href="<?php echo home_url( '/' ).""; ?>">RASTREAMENTO</a></li>
 								</ul>								
 							</div>	
 						</div>
@@ -73,11 +73,11 @@
 									<div>11 1234-5678</div>
 								</div>
 								<div class="menu-seta"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
-								<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog"; ?>">RASTREAMENTO</a></div>
+								<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' ).""; ?>">RASTREAMENTO</a></div>
 								<div class="menu-seta"><span class="glyphicon glyphicon-triangle-bottom"></span></div>							
-								<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">PLANOS</a></div>
+								<div class="menu-op"><a href="<?php echo home_url( '/' )."planos"; ?>">PLANOS</a></div>
 								<div class="menu-seta"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
-								<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">QUEM SOMOS</a></div>
+								<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></div>
 							</div>
 						</div>					
 					</div>

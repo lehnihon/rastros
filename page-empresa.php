@@ -94,10 +94,16 @@ get_header(); ?>
 					- Central de atendimento 24h em caso de furto ou roubo	<br>							
 				</p>
 			</div>
-		</div>
+		</div><br><br>
 		<div class="row">
-			<div class="col-md-12">
-				botoes
+			<div class="col-md-4">
+				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul-claro">RASTREAMENTO DE CONTAINERS</a>
+			</div>
+			<div class="col-md-4">
+				<a href="<?php echo home_url( '/' )."cargas"; ?>" class="btn-azul-claro">SOLUÇÕES PARA CARGAS - ÍSCAS</a>
+			</div>
+			<div class="col-md-4">
+				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
 			</div>
 		</div>
 	</div>

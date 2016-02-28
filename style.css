@@ -364,11 +364,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page section#home-solucoesv {
     margin-bottom: 80px; }
   #page section#home-solucoesf {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     padding: 60px 0;
     padding-bottom: 80px;
     background-color: #f1f1f1; }
   #page section#descricao-solucoes {
+    padding-bottom: 40px;
     text-align: left; }
   @media (max-width: 991px) {
     #page section#home-vantagens {
@@ -525,6 +526,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 15px 25px; }
   #page .btn-amarelo:hover {
     background-color: #ffe366; }
+  #page .modal-dialog {
+    margin-top: 100px; }
+    #page .modal-dialog .modal-content {
+      padding: 25px; }
+      #page .modal-dialog .modal-content .modal-header {
+        border: 0; }
 
 .videoWrapper {
   position: relative;
