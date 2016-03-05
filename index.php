@@ -37,10 +37,10 @@ get_header(); ?>
 
 <section id="home-vantagens">
 	<div class="container">
-		<div class="row">
+		<div class="row anima-a">
 			<h1 class="titulo-linha">Vantagens do rastreamento Rastrus</h1>
 		</div>
-		<div class="row">
+		<div class="row anima-a">
 			<div class="col-md-6 col-md-offset-3">
 				<p>
 					<strong>Confira quais são as vantagens de ter um plano de rastreamento e monitoramento da Rastrus.</strong>
@@ -48,20 +48,20 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row vantagens-imagens">
-			<div class="col-md-2 col-md-offset-1 col-xs-2 col-xs-offset-1">
+			<div class="col-md-2 col-md-offset-1 col-xs-2 col-xs-offset-1 anima-b">
 				<img class="e-claro img-responsive vantagens1" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1b.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens2" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens2 anima-c" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2a.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens3" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens3 anima-f" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3a.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens4" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens4 anima-e" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4a.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens5" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens5 anima-d" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5a.jpg"; ?>" />				
 			</div>
 		</div>	
 	</div>
@@ -157,10 +157,10 @@ get_header(); ?>
 
 <section id="home-solucoesv">
 	<div class="container">
-		<div class="row">
+		<div class="row anima-g">
 			<h2>Soluções para você</h1>
 		</div>
-		<div class="row">
+		<div class="row anima-g">
 			<div class="col-md-12">
 				<p>
 					<strong>Soluções de rastreamento e monitoramento para você.</strong>
@@ -168,15 +168,15 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 anima-h">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_03.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."embarcacoes"; ?>" class="btn-azul-claro">TRANSPORTE MARÍTIMO</a>				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 anima-i">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_01.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">PARA SEU AUTOMÓVEL</a>				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 anima-j">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_02.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">PARA SUA MOTO</a>				
 			</div>			
@@ -186,10 +186,10 @@ get_header(); ?>
 
 <section id="home-solucoesf">
 	<div class="container">
-		<div class="row">
+		<div class="row anima-k">
 			<h2>Soluções para sua empresa e frota</h1>
 		</div>
-		<div class="row">
+		<div class="row anima-k">
 			<div class="col-md-12">
 				<p>
 					<strong>Soluções inteligentes de rastreamento e monitoramento para sua empresa e frota.</strong>
@@ -197,15 +197,15 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 anima-l">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_03.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul">CONTAINERS</a>				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 anima-n">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_01.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."cargas"; ?>" class="btn-azul">SOLUÇÕES PARA CARGAS</a>				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 anima-m">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_02.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."empresa"; ?>" class="btn-azul">SOLUÇÕES PARA FROTAS</a>				
 			</div>			
@@ -216,14 +216,14 @@ get_header(); ?>
 <section id="planos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3 anima-o">
 				<h1>Planos de Monitoramento e Rastreamento</h1>
 				<h5><strong>Conheça todos os nossos planos de monitoramento e rastreamento e veja qual deles se encaixa no seu perfil.</strong></h5>
 			</div>
 		</div><br><br><br>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="plano-op">
+				<div class="plano-op anima-p">
 					<header>
 						<div class="titulo"><h5>PLANO 1</h5></div>
 						<div class="preco clearfix">
@@ -246,7 +246,7 @@ get_header(); ?>
 					</div>					
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 anima-r">
 				<div class="plano-op">
 					<header>
 						<div class="titulo"><h5>PLANO 2</h5></div>
@@ -270,7 +270,7 @@ get_header(); ?>
 					</div>					
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 anima-q">
 				<div class="plano-op">
 					<header>
 						<div class="titulo"><h5>PLANO 3 - ISCA OU MOTO</h5></div>
