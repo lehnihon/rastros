@@ -101,7 +101,7 @@ section#header{
         position: absolute;
         right: 0;
         left: 0;
-        z-index: 1030;
+        z-index: 1010;
         
         div.fundo-azul{
             background-color:#0073b4;
@@ -123,7 +123,14 @@ section#header{
                         margin-right: 10px;
                         padding-top:8px;
                         color:white;
+                        position:relative;
+                        width: 22%;
                         
+
+                        .glyphicon-triangle-bottom{
+                             color: #00beed !important;
+                        }
+
                         a{
                             color:white;
                             font-size: 15px;
@@ -131,15 +138,24 @@ section#header{
                         a:hover{
                             color:#ffd100;
                         }
-                    }
-                    div.menu-seta{
-                        float:right;
-                        margin-right: 35px;
-                        padding-top:8px;
 
-                        span.glyphicon-triangle-bottom{
-                            color: #00beed;
-                        }                        
+                        .menu-drop{
+                            position:absolute;
+                            background-color:#00bdeb;
+                            border-radius:5px;
+                            padding:10px 20px;
+                            margin: 0;
+                            margin-top: 10px;
+                            z-index: 1030;
+                            display: none;
+                    
+
+                            li{
+                                list-style-type: none;
+                                text-align: left; 
+                                margin: 5px 0;
+                            }
+                        }
                     }
 
                     div.menu-tel{
@@ -188,7 +204,13 @@ section#header{
                         margin-right: 10px;
                         padding-top:8px;
                         color:white;
+                        position:relative;
+                        width: 22%;
                         
+                        .glyphicon-triangle-bottom{
+                             color: #00beed !important;
+                        }   
+
                         a{
                             color:white;
                             font-size: 15px;
@@ -196,15 +218,24 @@ section#header{
                         a:hover{
                             color:#ffd100;
                         }
-                    }
-                    div.menu-seta{
-                        float:right;
-                        margin-right: 35px;
-                        padding-top:8px;
 
-                        span.glyphicon-triangle-bottom{
-                            color: #00beed;
-                        }                        
+                        .menu-drop{
+                            position:absolute;
+                            background-color:#00bdeb;
+                            border-radius:5px;
+                            padding:10px 20px;
+                            margin: 0;
+                            margin-top: 10px;
+                            z-index: 1030;
+                            display: none;
+                    
+                            li{
+                                list-style-type: none;
+                                text-align: left; 
+                                margin: 5px 0;
+                            }
+                        }
+
                     }
 
                     div.menu-tel{
@@ -234,7 +265,7 @@ section#header{
         right: 0;
         left: 0;
         top:220px;
-        z-index: 1030;
+        z-index: 1000;
         
         header{
             background-color:#0073b4;

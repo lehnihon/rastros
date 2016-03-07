@@ -121,7 +121,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     position: absolute;
     right: 0;
     left: 0;
-    z-index: 1030; }
+    z-index: 1010; }
     #page section#header nav#header-nav div.fundo-azul {
       background-color: #0073b4; }
       #page section#header nav#header-nav div.fundo-azul div.logo-container {
@@ -136,18 +136,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
             float: right;
             margin-right: 10px;
             padding-top: 8px;
-            color: white; }
+            color: white;
+            position: relative;
+            width: 22%; }
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op .glyphicon-triangle-bottom {
+              color: #00beed !important; }
             #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op a {
               color: white;
               font-size: 15px; }
             #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op a:hover {
               color: #ffd100; }
-          #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-seta {
-            float: right;
-            margin-right: 35px;
-            padding-top: 8px; }
-            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-seta span.glyphicon-triangle-bottom {
-              color: #00beed; }
+            #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op .menu-drop {
+              position: absolute;
+              background-color: #00bdeb;
+              border-radius: 5px;
+              padding: 10px 20px;
+              margin: 0;
+              margin-top: 10px;
+              z-index: 1030;
+              display: none; }
+              #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op .menu-drop li {
+                list-style-type: none;
+                text-align: left;
+                margin: 5px 0; }
           #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-tel {
             float: right;
             color: white;
@@ -175,18 +186,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
             float: right;
             margin-right: 10px;
             padding-top: 8px;
-            color: white; }
+            color: white;
+            position: relative;
+            width: 22%; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op .glyphicon-triangle-bottom {
+              color: #00beed !important; }
             #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op a {
               color: white;
               font-size: 15px; }
             #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op a:hover {
               color: #ffd100; }
-          #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-seta {
-            float: right;
-            margin-right: 35px;
-            padding-top: 8px; }
-            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-seta span.glyphicon-triangle-bottom {
-              color: #00beed; }
+            #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op .menu-drop {
+              position: absolute;
+              background-color: #00bdeb;
+              border-radius: 5px;
+              padding: 10px 20px;
+              margin: 0;
+              margin-top: 10px;
+              z-index: 1030;
+              display: none; }
+              #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op .menu-drop li {
+                list-style-type: none;
+                text-align: left;
+                margin: 5px 0; }
           #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-tel {
             float: right;
             color: white;
@@ -202,7 +224,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     right: 0;
     left: 0;
     top: 220px;
-    z-index: 1030; }
+    z-index: 1000; }
     #page section#header div.formulario-header header {
       background-color: #0073b4;
       padding: 20px 10px; }
@@ -371,6 +393,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page section#descricao-solucoes {
     padding-bottom: 40px;
     text-align: left; }
+  #page section#localizacao-conteudo {
+    background-color: #0c72b0;
+    color: white;
+    text-align: left;
+    padding: 25px 0; }
+    #page section#localizacao-conteudo h2 {
+      color: white; }
+  #page section#contato-pag {
+    padding-bottom: 50px; }
+    #page section#contato-pag div.info-right {
+      margin-top: 25px;
+      background-color: #0c72b0;
+      color: white;
+      padding: 25px; }
   @media (max-width: 991px) {
     #page section#home-vantagens {
       padding-bottom: 0 !important; }
@@ -535,12 +571,27 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 26.25%;
   /* 16:9 */
   padding-top: 25px;
   height: 0; }
 
 .videoWrapper iframe {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.videoWrapperb {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapperb iframe {
   position: absolute;
   top: 0;
   left: 0;

@@ -40,12 +40,16 @@
 				</div>
 			</div><br/>
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-12">
 					<ul class="menu-footer clearfix">
 						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">QUEM SOMOS</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."planos" ); ?>">PLANOS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">SERVIÇOS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."rastreamento"; ?>">RASTREAMENTO</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."automovel"; ?>">AUTOMÓVEL</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."automovel"; ?>">MOTO</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."containers"; ?>">CONTAINERS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."empresa"; ?>">FROTAS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."cargas"; ?>">CARGAS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."embarcacoes"; ?>">MARÍTIMO</a></li>
 						<li><a href="#">LOGIN</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">CONTATO</a></li>
 					</ul>
