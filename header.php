@@ -59,9 +59,16 @@
 									<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 								</button>
 								<ul class="dropdown-menu">
-								<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
-								><li><a href="<?php echo home_url( '/' )."planos"; ?>">PLANOS</a></li
-								><li><a href="<?php echo home_url( '/' ).""; ?>">RASTREAMENTO</a></li>
+									<li><a href="<?php echo home_url( '/' )."sobre"; ?>">Institucional</a></li
+									><li><a href="<?php echo home_url( '/' )."localizacao"; ?>">Localização</a></li
+									><li><a href="<?php echo home_url( '/' )."contato"; ?>">Atendimento</a></li
+									><li><a href="<?php echo home_url( '/' )."planos"; ?>">Planos</a></li									
+									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Automóvel</a></li
+									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Moto</a></li
+									><li><a href="<?php echo home_url( '/' )."containers"; ?>">Containers</a></li
+									><li><a href="<?php echo home_url( '/' )."empresa"; ?>">Frotas</a></li
+									><li><a href="<?php echo home_url( '/' )."cargas"; ?>">Cargas</a></li
+									><li><a href="<?php echo home_url( '/' )."embarcacoes"; ?>">Marítimo</a></li>
 								</ul>								
 							</div>	
 						</div>
