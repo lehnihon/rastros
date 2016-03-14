@@ -16,9 +16,12 @@
 			<div class="row"><br>
 				<div class="col-md-8 text-left">
 					<p><strong>RASTRUS RASTREAMENTO E MONITORAMENTO</strong></p>
-					<p>A Rastrus Rastreamento e Monitoramento surgiu com o objetivo de oferecer soluções que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</p>
-					<p>Com nossas soluções em manuseio, transporte, courier, logística reversa, impressão com dados variáveis e gestão postal, seus prazos são levados a sério. </p>
-					<p>Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto do início ao destino final.</p>
+					<p>Oferecemos as melhores soluções em rastreamento e monitoramento para carros, motos, caminhões, cargas, frotas, 
+barcos e containers. Sempre colocando em prioridade a segurança e a tranquilidade dos nossos clientes.</p>
+					<p>Os rastreadores e bloqueadores oferecidos pela Rastrus são de cobertura nacional, utilizando tecnologia GSM e GPRS, 
+dessa forma impossibilita que ladrões desativem.</p>
+					<p>Nossa equipe trabalha de forma sinérgica e integrada para que todos os processos, desde o primeiro contato realizado 
+até a instalação e monitoramento, tragam resultados significativos para você e sua empresa.</p>
 				</div>
 				<div class="col-md-3 col-md-offset-1 text-left">
 					<strong>Receba nossas novidades</strong>
@@ -33,9 +36,8 @@
 			<div class="row">
 				<div class="col-md-12 text-left">
 					<h3>Central de Atendimento</h3>
-					<p>
-						São Paulo: 11 1234-5678 <br>	
-						Demais Localidades: 0800 123 4567					
+					<p class="destaque-footer">
+						São Paulo: <br>11 3467-5186   |   11 2061-3138 						
 					</p>					
 				</div>
 			</div><br/>

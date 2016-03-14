@@ -16,11 +16,17 @@ get_header('sembanner'); ?>
 	<div class="container">
 		<div class="row">
 			<h2>Venha nos visitar!</h2>
-			<p>Endereço 150 - conjunto 12 - São Paulo - SP</p>
-			<p><strong>Telefone: </strong>11 2442-2442 <strong> Email: </strong>contato@rastrus.com.br</p>
+			<p><strong>Endereço: </strong>Rua Nova Hamburgo, 99 Ipiranga - São Paulo - SP <br>
+				<strong>CEP</strong> 04217-040
+			</p>
+			<p>
+				<strong>Telefones: </strong>11 3467-5186  |  11 2061-3138 <br>
+				<strong> Email: </strong>contato@rastrus.com.br</p>
 		</div>
 	</div>
 </section>
+
+ 
 
 <section id="localizacao-mapa"> 
 	<div class="container-fluid">

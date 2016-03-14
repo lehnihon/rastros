@@ -143,6 +143,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		padding:5px 25px;
 		color:#0061b6;
 		border:0;
+		border-radius: 6px;
 		background-color:#ffd100;
 		font-weight: bold;
 		font-size: 16px;
@@ -150,6 +151,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-amarelo:hover{
+		background-color:#ffe366;
+	}
+
+	.btn-amarelo-q{
+		padding:5px 25px;
+		color:#0061b6;
+		border:0;
+		background-color:#ffd100;
+		font-weight: bold;
+		font-size: 16px;
+		padding:15px 25px;
+	}
+
+	.btn-amarelo-q:hover{
 		background-color:#ffe366;
 	}
 
@@ -163,6 +178,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 				border:0;
 			}
 		}
+	}
+
+	.input-assine{
+		padding: 5px;
+	    border-radius: 5px;
+	    border: 1px solid #d6d6d6;
 	}
 
 }

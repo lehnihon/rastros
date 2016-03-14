@@ -1,6 +1,6 @@
-<<?php
+<?php
 get_header('sembanner'); ?>
 
-<h1>Página não encontrada</h1>
+<h1>Email enviado com sucesso!</h1>
 
 <?php get_footer(); ?>

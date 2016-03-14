@@ -21,7 +21,7 @@ get_header('sembanner'); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>MÍNIMO DE 12 MESES</p>
-						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
+						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -45,7 +45,7 @@ get_header('sembanner'); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>+$300,00 pelo custo do rastreador</p>
-						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModalb">ASSINE JÁ</a>
+						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModalb">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -69,7 +69,7 @@ get_header('sembanner'); ?>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
 						<p>+R$500 pelo custo do rastreador</p>
-						<a class="btn-amarelo" href="#" data-toggle="modal" data-target="#myModalc">ASSINE JÁ</a>
+						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModalc">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
@@ -98,62 +98,6 @@ get_header('sembanner'); ?>
 	</div>
 </section>
 
-<!-- Modal -->
-<div class="modal fade" id="myModala" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-			<div class="modal-body text-left">
-				<h3>Aproveite!</h3>
-				<p>
-					<strong>Crie sua conta agora mesmo.</strong><br>
-					Preencha todos os campos abaixo e entraremos em contato com você!
-				</p>
-				<p>
-					form
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal fade" id="myModalb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-			<div class="modal-body text-left">
-				<h3>Aproveite!</h3>
-				<p>
-					<strong>Crie sua conta agora mesmo.</strong><br>
-					Preencha todos os campos abaixo e entraremos em contato com você!
-				</p>
-				<p>
-					form
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal fade" id="myModalc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-			<div class="modal-body text-left">
-				<h3>Aproveite!</h3>
-				<p>
-					<strong>Crie sua conta agora mesmo.</strong><br>
-					Preencha todos os campos abaixo e entraremos em contato com você!
-				</p>
-				<p>
-					form
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
+<?php get_template_part( 'template-parts/modal'); ?>
+
 <?php get_footer(); ?>
