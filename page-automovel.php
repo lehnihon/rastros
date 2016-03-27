@@ -16,7 +16,7 @@ get_header(); ?>
 <section id="banner">
 	<div class="container-fluid">
 		<div class="row">		
-			<?php putRevSlider( "banner-index" ) ?>		
+			<?php putRevSlider( "banner-automovel" ) ?>		
 		</div>
 	</div>
 </section>

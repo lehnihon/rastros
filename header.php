@@ -38,12 +38,12 @@
 						</ul>
 					</div>
 					<div class="col-md-3 box clearfix header-login">
-						<a href="http://54.207.92.38" class="btn-login pull-right">LOGIN</a>
+						<a href="#" class="btn-login pull-right">LOGIN</a>
 						<span class="pull-right">Acesse com seu login </span>
 					</div>
 					<div class="col-md-3 box clearfix header-login-responsive">
 						<span>Acesse com seu login </span>
-						<a href="http://54.207.92.38" class="btn-login pull-left">LOGIN</a>
+						<a href="#" class="btn-login pull-left">LOGIN</a>
 					</div>
 				</div>
 			</div>
