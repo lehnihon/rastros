@@ -161,7 +161,8 @@ section#header{
                     div.menu-tel{
                         float:right; 
                         color:white;
-                        margin-right: 35px;
+                        margin-right: 25px;
+                        margin-left: 10px;
                     
                         img{
                             margin-right: 10px;
@@ -241,7 +242,8 @@ section#header{
                     div.menu-tel{
                         float:right; 
                         color:white;
-                        margin-right: 35px;
+                        margin-right: 25px;
+                        margin-left: 10px;
                     
                         img{
                             margin-right: 10px;
@@ -290,6 +292,7 @@ section#header{
                 padding:5px;
                 border-radius:5px;
                 color:#9d9d9d;
+                border:1px solid;
             }
             input[type="submit"]{
                 background-color:#fad000;
@@ -331,6 +334,7 @@ section#form-responsivo{
             padding:5px;
             border-radius:5px;            
             color:#9d9d9d;
+            border:1px solid;
         }
         input[type="submit"]{
             background-color:#fad000;
@@ -397,6 +401,7 @@ section#form-responsivo{
 
     div.menu-tel{
         margin-right: 20px !important;
+        margin-left: 0 !important;
         strong{
             font-size: 14px !important;
         }

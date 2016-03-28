@@ -162,7 +162,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-tel {
             float: right;
             color: white;
-            margin-right: 35px; }
+            margin-right: 25px;
+            margin-left: 10px; }
             #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-tel img {
               margin-right: 10px;
               margin-top: 4px;
@@ -212,7 +213,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-tel {
             float: right;
             color: white;
-            margin-right: 35px; }
+            margin-right: 25px;
+            margin-left: 10px; }
             #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-tel img {
               margin-right: 10px;
               margin-top: 4px;
@@ -242,7 +244,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#header div.formulario-header div.form-conteudo input {
         padding: 5px;
         border-radius: 5px;
-        color: #9d9d9d; }
+        color: #9d9d9d;
+        border: 1px solid; }
       #page section#header div.formulario-header div.form-conteudo input[type="submit"] {
         background-color: #fad000;
         border: 1px solid #fad000;
@@ -271,7 +274,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#form-responsivo div.form-conteudo input {
         padding: 5px;
         border-radius: 5px;
-        color: #9d9d9d; }
+        color: #9d9d9d;
+        border: 1px solid; }
       #page section#form-responsivo div.form-conteudo input[type="submit"] {
         background-color: #fad000;
         border: 1px solid #fad000;
@@ -306,7 +310,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div.menu-seta {
       margin-right: 20px !important; }
     #page div.menu-tel {
-      margin-right: 20px !important; }
+      margin-right: 20px !important;
+      margin-left: 0 !important; }
       #page div.menu-tel strong {
         font-size: 14px !important; }
     #page div.menu-header {
