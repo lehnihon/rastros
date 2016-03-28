@@ -16,7 +16,7 @@ get_header(); ?>
 <section id="banner">
 	<div class="container-fluid">
 		<div class="row">		
-			<?php putRevSlider( "banner-index" ) ?>		
+			<?php putRevSlider( "banner-sobre" ) ?>		
 		</div>
 	</div>
 </section>
@@ -24,10 +24,10 @@ get_header(); ?>
 <section id="form-responsivo">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-offset-8 col-md-4">
+			<div class="col-md-offset-8 col-md-4 text-left">
 				<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
 				<div class="form-conteudo">
-					formulario
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 17 ); } ?>
 				</div>						
 			</div>
 
@@ -72,11 +72,7 @@ get_header(); ?>
 				<p>Implante nosso sistema e comprove!</p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				botoes
-			</div>
-		</div>
+		
 	</div>
 </section>
 

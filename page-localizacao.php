@@ -21,7 +21,7 @@ get_header('sembanner'); ?>
 			</p>
 			<p>
 				<strong>Telefones: </strong>11 3467-5186  |  11 2061-3138 <br>
-				<strong> Email: </strong>contato@rastrus.com.br</p>
+				<strong> Email: </strong>contato@rastrus.com</p>
 		</div>
 	</div>
 </section>

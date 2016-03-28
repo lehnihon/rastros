@@ -24,7 +24,8 @@ dessa forma impossibilita que ladrões desativem.</p>
 até a instalação e monitoramento, tragam resultados significativos para você e sua empresa.</p>
 				</div>
 				<div class="col-md-3 col-md-offset-1 text-left">
-					<strong>Receba nossas novidades</strong>
+					<strong>Receba nossas novidades</strong><br><br>
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 20 ); } ?> 
 					<ul class="redes_sociais_header">
 						<li class="youtube"><a target="_blank" href="#"></a></li>
 						<li class="instagram"><a target="_blank" href="#"></a></li>

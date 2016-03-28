@@ -227,31 +227,60 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     z-index: 1000; }
     #page section#header div.formulario-header header {
       background-color: #0073b4;
-      padding: 20px 10px; }
+      padding: 20px 40px; }
       #page section#header div.formulario-header header h2 {
         margin: 0;
         color: white;
         font-weight: normal;
         line-height: 28px;
-        font-size: 20px; }
+        font-size: 20px;
+        padding: 0; }
     #page section#header div.formulario-header div.form-conteudo {
-      padding: 10px;
+      padding: 20px 40px;
       color: white;
       background: rgba(0, 124, 193, 0.7); }
+      #page section#header div.formulario-header div.form-conteudo input {
+        padding: 5px;
+        border-radius: 5px;
+        color: #9d9d9d; }
+      #page section#header div.formulario-header div.form-conteudo input[type="submit"] {
+        background-color: #fad000;
+        border: 1px solid #fad000;
+        color: #0c72b0;
+        font-weight: bold;
+        display: block;
+        width: 100%; }
+      #page section#header div.formulario-header div.form-conteudo input[type="submit"]:hover {
+        background-color: #fce266; }
   #page section#form-responsivo {
     margin-bottom: 50px; }
     #page section#form-responsivo header {
       background-color: #0073b4;
-      padding: 20px 10px; }
+      padding: 20px 40px; }
       #page section#form-responsivo header h2 {
         margin: 0;
         color: white;
         font-weight: normal;
-        line-height: 28px; }
+        line-height: 28px;
+        font-size: 20px;
+        padding: 0; }
     #page section#form-responsivo div.form-conteudo {
-      padding: 10px;
+      padding: 20px 40px;
       background-color: #007cc1;
       color: white; }
+      #page section#form-responsivo div.form-conteudo input {
+        padding: 5px;
+        border-radius: 5px;
+        color: #9d9d9d; }
+      #page section#form-responsivo div.form-conteudo input[type="submit"] {
+        background-color: #fad000;
+        border: 1px solid #fad000;
+        color: #0c72b0;
+        font-weight: bold;
+        display: block;
+        width: 100%; }
+      #page section#form-responsivo div.form-conteudo input[type="submit"]:hover {
+        background-color: #fce266; }
   @media (max-width: 991px) {
     #page div.formulario-header {
       display: none !important; }
@@ -587,6 +616,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #d6d6d6; }
+  #page .input-contato {
+    border: 0;
+    padding: 5px;
+    background-color: #f4f4f4; }
+  #page .btn-enviar {
+    background-color: #0c72b0;
+    padding: 10px 50px;
+    color: white;
+    border: 0;
+    font-weight: bold; }
+  #page .btn-enviar:hover {
+    background-color: #6daacf; }
+  #page .input-receba-wrap {
+    margin-bottom: 5px;
+    color: #606060; }
+  #page .input-receba {
+    border: 0;
+    padding: 5px; }
+  #page .btn-receba {
+    background-color: #00c6f9;
+    font-weight: bold;
+    padding: 5px 25px;
+    border: 0;
+    color: white; }
+  #page .btn-receba:hover {
+    background-color: #66dcfb; }
 
 .videoWrapper {
   position: relative;

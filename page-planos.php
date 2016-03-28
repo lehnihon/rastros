@@ -93,7 +93,7 @@ get_header('sembanner'); ?>
 				Não pode ser atendido pelos planos acima? <br>
 				<strong>Gostaríamos de entender as suas necessidades!</strong>
 			</div>
-			<div class="col-md-6 text-left"><a class="btn-azul-q" href="#">ENTRE EM CONTATO</a></div>
+			<div class="col-md-6 text-left"><a class="btn-azul-q" href="<?php echo home_url( '/' )."contato"; ?>">ENTRE EM CONTATO</a></div>
 		</div>
 	</div>
 </section>

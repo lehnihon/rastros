@@ -11,7 +11,7 @@ get_header('sembanner'); ?>
 		</div><br>
 		<div class="row">
 			<div class="col-md-5 info-left text-left">
-				form
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 18 ); }?>
 			</div>
 			<div class="col-md-6 col-md-offset-1 text-left">
 				<div class="videoWrapperb">
@@ -23,9 +23,9 @@ get_header('sembanner'); ?>
 					<br>Ipiranga - São Paulo - SP
 					<br>CEP 04217-040
 					<br><br><strong>Telefone</strong>
-					<br>11 2061-3138
+					<br>11 3467-5186 | 11 2061-3138
 					<br><br><strong>Email</strong>
-					<br>contato@datacerta.net.br
+					<br>contato@rastrus.com
 				</div>
 			</div>
 		</div>
