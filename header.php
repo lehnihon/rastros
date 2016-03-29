@@ -38,12 +38,12 @@
 						</ul>
 					</div>
 					<div class="col-md-3 box clearfix header-login">
-						<a href="#" class="btn-login pull-right">LOGIN</a>
+						<a href="https://sis.getrak.com/rastrus/" class="btn-login pull-right">LOGIN</a>
 						<span class="pull-right">Acesse com seu login </span>
 					</div>
 					<div class="col-md-3 box clearfix header-login-responsive">
 						<span>Acesse com seu login </span>
-						<a href="#" class="btn-login pull-left">LOGIN</a>
+						<a href="https://sis.getrak.com/rastrus/" class="btn-login pull-left">LOGIN</a>
 					</div>
 				</div>
 			</div>
