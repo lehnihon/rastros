@@ -448,14 +448,31 @@ section#form-responsivo{
         top:180px !important;
         font-size:10px;
         header{
+            display: none !important;
+
             h2{
                 font-size: 14px !important;
             }
         }
         .form-conteudo{
-            p{
-                display: none !important;
+            padding:10px 40px !important;
+        }
+    }
+}
+
+
+@media (max-width: 1450px) {  
+    div.formulario-header{
+        top:180px !important;
+        font-size:10px;
+        header{
+            display: none !important;
+
+            h2{
+                font-size: 14px !important;
             }
+        }
+        .form-conteudo{
             padding:10px 40px !important;
         }
     }

@@ -336,12 +336,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div.formulario-header {
       top: 180px !important;
       font-size: 10px; }
-      #page div.formulario-header header h2 {
-        font-size: 14px !important; }
+      #page div.formulario-header header {
+        display: none !important; }
+        #page div.formulario-header header h2 {
+          font-size: 14px !important; }
       #page div.formulario-header .form-conteudo {
-        padding: 10px 40px !important; }
-        #page div.formulario-header .form-conteudo p {
-          display: none !important; } }
+        padding: 10px 40px !important; } }
+  @media (max-width: 1450px) {
+    #page div.formulario-header {
+      top: 180px !important;
+      font-size: 10px; }
+      #page div.formulario-header header {
+        display: none !important; }
+        #page div.formulario-header header h2 {
+          font-size: 14px !important; }
+      #page div.formulario-header .form-conteudo {
+        padding: 10px 40px !important; } }
   @media (min-width: 992px) {
     #page div.formulario-header {
       display: block !important; }
