@@ -129,7 +129,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         padding: 15px 25px; }
       #page section#header nav#header-nav div.fundo-azul div.menu-container {
         padding: 15px 25px;
-        padding-right: 35px; }
+        padding-left: 10px;
+        padding-right: 50px; }
         #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header {
           margin-top: 20px; }
           #page section#header nav#header-nav div.fundo-azul div.menu-container div.menu-header div.menu-op {
@@ -180,7 +181,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         padding: 15px 25px; }
       #page section#header nav#sembanner div.fundo-azul div.menu-container {
         padding: 15px 25px;
-        padding-right: 35px; }
+        padding-left: 10px;
+        padding-right: 50px; }
         #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header {
           margin-top: 20px; }
           #page section#header nav#sembanner div.fundo-azul div.menu-container div.menu-header div.menu-op {
@@ -318,6 +320,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 15px !important; }
     #page div.formulario-header {
       top: 235px !important; } }
+  @media (max-width: 1810px) {
+    #page div.formulario-header {
+      top: 200px !important;
+      font-size: 12px; }
+      #page div.formulario-header header h2 {
+        font-size: 18px !important; } }
+  @media (max-width: 1650px) {
+    #page div.formulario-header {
+      top: 180px !important;
+      font-size: 10px; }
+      #page div.formulario-header header h2 {
+        font-size: 16px !important; } }
+  @media (max-width: 1550px) {
+    #page div.formulario-header {
+      top: 180px !important;
+      font-size: 10px; }
+      #page div.formulario-header header h2 {
+        font-size: 14px !important; }
+      #page div.formulario-header .form-conteudo {
+        padding: 10px 40px !important; }
+        #page div.formulario-header .form-conteudo p {
+          display: none !important; } }
   @media (min-width: 992px) {
     #page div.formulario-header {
       display: block !important; }

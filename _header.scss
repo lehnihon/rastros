@@ -113,7 +113,8 @@ section#header{
 
             div.menu-container{
                 padding:15px 25px;
-                padding-right:35px;
+                padding-left:10px;
+                padding-right:50px;
 
                 div.menu-header{
                     margin-top: 20px;
@@ -195,7 +196,8 @@ section#header{
 
             div.menu-container{
                 padding:15px 25px;
-                padding-right:35px;
+                padding-left:10px;
+                padding-right:50px;
 
                 div.menu-header{
                     margin-top: 20px;
@@ -414,6 +416,49 @@ section#form-responsivo{
         top:235px !important;
     }
 
+}
+
+@media (max-width: 1810px) {  
+    div.formulario-header{
+        top:200px !important;
+        font-size:12px;
+        header{
+            h2{
+                font-size: 18px !important;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1650px) {  
+    div.formulario-header{
+        top:180px !important;
+        font-size:10px;
+        header{
+            h2{
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 1550px) {  
+    div.formulario-header{
+        top:180px !important;
+        font-size:10px;
+        header{
+            h2{
+                font-size: 14px !important;
+            }
+        }
+        .form-conteudo{
+            p{
+                display: none !important;
+            }
+            padding:10px 40px !important;
+        }
+    }
 }
 
 

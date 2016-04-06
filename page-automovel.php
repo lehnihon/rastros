@@ -90,10 +90,10 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4 col-md-offset-2 text-right">
 				<a href="<?php echo home_url( '/' )."embarcacoes"; ?>" class="btn-azul-claro">TRANSPORTE NÁUTICO</a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 text-left">
 				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
 			</div>
 		</div>

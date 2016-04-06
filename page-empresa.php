@@ -96,13 +96,13 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 text-right">
 				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul-claro">RASTREAMENTO DE CONTAINERS</a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 text-center">
 				<a href="<?php echo home_url( '/' )."cargas"; ?>" class="btn-azul-claro">SOLUÇÕES PARA CARGAS - ÍSCAS</a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 text-left">
 				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
 			</div>
 		</div>
