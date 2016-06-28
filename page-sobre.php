@@ -24,7 +24,7 @@ get_header(); ?>
 <section id="form-responsivo">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-offset-8 col-md-4 text-left">
+			<div class="col-md-12">
 				<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
 				<div class="form-conteudo">
 					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 17 ); } ?>
@@ -45,7 +45,7 @@ get_header(); ?>
 					motos, caminhões, cargas, frotas, barcos e containers. 
 				</p>
 				<p>
-					Atuamos nesse segmento há X anos, sempre colocando em prioridade a segurança 
+					Atuamos nesse segmento há 8 anos, sempre colocando em prioridade a segurança 
 					e a tranquilidade dos nossos clientes. <br/>
 					Os rastreadores e bloqueadores oferecidos pela Rastrus são de cobertura nacional, 
 					utilizando tecnologia GSM e GPRS, dessa forma impossibilita que ladrões desativem.					

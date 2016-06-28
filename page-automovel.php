@@ -24,7 +24,7 @@ get_header(); ?>
 <section id="form-responsivo">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-offset-8 col-md-4 text-left">
+			<div class="col-md-12">
 				<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
 				<div class="form-conteudo">
 					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 17 ); } ?>
@@ -90,10 +90,10 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4 col-md-offset-2 text-right">
 				<a href="<?php echo home_url( '/' )."embarcacoes"; ?>" class="btn-azul-claro">TRANSPORTE NÁUTICO</a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 text-left">
 				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
 			</div>
 		</div>
