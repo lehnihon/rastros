@@ -69,8 +69,8 @@
 							<div class="menu-header clearfix">
 								<div class="menu-tel">
 									<img class="e-claro img-responsive pull-left" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel_header.jpg"; ?>" />
-									<div class="pull-left clearfix"><strong>11 3467-5186</strong></div>
-									<div>11 2061-3138</div>
+									<div class="pull-left clearfix"><strong>11 2061-3138</strong></div>
+				
 								</div>
 								<div class="menu-op">
 									<a class="menu-drop-header" href="#">RASTREAMENTO</a>
