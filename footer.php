@@ -47,6 +47,12 @@ até a instalação e monitoramento, tragam resultados significativos para você
 					<ul class="menu-footer clearfix">
 						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">QUEM SOMOS</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."planos" ); ?>">PLANOS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."automovel"; ?>">AUTOMÓVEL</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."automovel"; ?>">MOTO</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."containers"; ?>">CONTAINERS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."empresa"; ?>">FROTAS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."cargas"; ?>">CARGAS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."embarcacoes"; ?>">MARÍTIMO</a></li>
 						<li><a href="#">LOGIN</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">CONTATO</a></li>
 					</ul>

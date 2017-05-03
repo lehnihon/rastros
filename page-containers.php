@@ -16,7 +16,7 @@ get_header(); ?>
 <section id="banner">
 	<div class="container-fluid">
 		<div class="row">		
-			<?php putRevSlider( "banner-containers" ) ?>		
+			<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/containers.jpg"; ?>" />
 		</div>
 	</div>
 </section>

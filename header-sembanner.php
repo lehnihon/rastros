@@ -66,8 +66,11 @@ new WOW().init();
 									><li><a href="<?php echo home_url( '/' )."planos"; ?>">Planos</a></li									
 									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Automóvel</a></li
 									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Moto</a></li
+									><li><a href="<?php echo home_url( '/' )."containers"; ?>">Containers</a></li
+									><li><a href="<?php echo home_url( '/' )."empresa"; ?>">Frotas</a></li
 									><li><a href="<?php echo home_url( '/' )."cargas"; ?>">Cargas</a></li
-									><li><a href="<?php echo home_url( '/' )."familia"; ?>">Família</a></li>
+									><li><a href="<?php echo home_url( '/' )."embarcacoes"; ?>">Marítimo</a></li>
+
 								</ul>								
 							</div>	
 						</div>
@@ -82,10 +85,13 @@ new WOW().init();
 									<a class="menu-drop-header" href="#">RASTREAMENTO</a>
 									<span class="glyphicon glyphicon-triangle-bottom"></span>
 									<ul class="menu-drop">
-										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para Automóvel</a></li>
-										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para Moto</a></li>
+										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para seu Automóvel</a></li>
+										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para sua Moto</a></li>
 										<li><a href="<?php echo home_url( '/' )."cargas"; ?>">Isca para Cargas</a></li>
 										<li><a href="<?php echo home_url( '/' )."familia"; ?>">Proteção para Família</a></li>
+										<li><a href="<?php echo home_url( '/' )."containers"; ?>">Containers</a></li>
+										<li><a href="<?php echo home_url( '/' )."empresa"; ?>">Frotas</a></li>
+										<li><a href="<?php echo home_url( '/' )."embarcacoes"; ?>">Marítimo</a></li>
 									</ul>
 								</div>							
 								<div class="menu-op">

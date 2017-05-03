@@ -16,9 +16,7 @@ get_header(); ?>
 <section id="banner">
 	<div class="container-fluid">
 		<div class="row">		
-			<?php 
-			    echo do_shortcode("[metaslider id=340]"); 
-			?>
+<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Rastrus Proteção para sua Frota de Veículos 3.jpg"; ?>" />
 		</div>
 	</div>
 </section>
