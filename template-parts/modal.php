@@ -31,7 +31,7 @@
 					Preencha todos os campos abaixo e entraremos em contato com você!
 				</p>
 				<p>
-					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 8 ); } ?>
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); } ?>
 				</p>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 					Preencha todos os campos abaixo e entraremos em contato com você!
 				</p>
 				<p>
-					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 11 ); } ?>
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); } ?>
 				</p>
 			</div>
 		</div>

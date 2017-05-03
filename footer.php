@@ -25,7 +25,7 @@ até a instalação e monitoramento, tragam resultados significativos para você
 				</div>
 				<div class="col-md-3 col-md-offset-1 text-left">
 					<strong>Receba nossas novidades</strong><br><br>
-					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 20 ); } ?> 
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 4 ); } ?> 
 					<ul class="redes_sociais_header">
 						<li class="youtube"><a target="_blank" href="#"></a></li>
 						<li class="instagram"><a target="_blank" href="#"></a></li>
@@ -47,12 +47,6 @@ até a instalação e monitoramento, tragam resultados significativos para você
 					<ul class="menu-footer clearfix">
 						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">QUEM SOMOS</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."planos" ); ?>">PLANOS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."automovel"; ?>">AUTOMÓVEL</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."automovel"; ?>">MOTO</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."containers"; ?>">CONTAINERS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."empresa"; ?>">FROTAS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."cargas"; ?>">CARGAS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."embarcacoes"; ?>">MARÍTIMO</a></li>
 						<li><a href="#">LOGIN</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">CONTATO</a></li>
 					</ul>
@@ -65,7 +59,7 @@ até a instalação e monitoramento, tragam resultados significativos para você
 				<div class="col-md-3 col-md-offset-3 copy-text text-left">
 					<a target="_blank" href="http://agenciarino.com.br/">
 						<span>Desenvolvido por</span>
-						<img class="e-claro anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/rino-bot.png"; ?>" />
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/rino-bot.png"; ?>" />
 					</a>
 				</div>				
 			</div>

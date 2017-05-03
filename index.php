@@ -16,12 +16,12 @@ get_header(); ?>
 <section id="banner">
 	<div class="container-fluid">
 		<div class="row">		
-			<?php putRevSlider( "banner-index" ) ?>		
+			<?php echo do_shortcode("[metaslider id=312]"); ?>
 		</div>
 	</div>
 </section>
 
-<section id="form-responsivo">
+<section id="form-responsivo" class="wow fadeIn">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -37,31 +37,31 @@ get_header(); ?>
 
 <section id="home-vantagens">
 	<div class="container">
-		<div class="row anima-a">
+		<div class="row wow fadeInUp">
 			<h1 class="titulo-linha">Vantagens do rastreamento Rastrus</h1>
 		</div>
-		<div class="row anima-a">
+		<div class="row wow fadeInUp">
 			<div class="col-md-6 col-md-offset-3">
 				<p>
 					<strong>Confira quais são as vantagens de ter um plano de rastreamento e monitoramento da Rastrus.</strong>
 				</p>			
 			</div>
 		</div><br><br>
-		<div class="row vantagens-imagens">
-			<div class="col-md-2 col-md-offset-1 col-xs-2 col-xs-offset-1 anima-b">
+		<div class="row vantagens-imagens wow fadeInUp">
+			<div class="col-md-2 col-md-offset-1 col-xs-2 col-xs-offset-1">
 				<img class="e-claro img-responsive vantagens1" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1b.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens2 anima-c" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens2" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2a.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens3 anima-f" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens3" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3a.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens4 anima-e" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens4" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4a.jpg"; ?>" />				
 			</div>
 			<div class="col-md-2 col-xs-2">
-				<img class="e-claro img-responsive vantagens5 anima-d" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5a.jpg"; ?>" />				
+				<img class="e-claro img-responsive vantagens5" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5a.jpg"; ?>" />				
 			</div>
 		</div>	
 	</div>
@@ -157,26 +157,26 @@ get_header(); ?>
 
 <section id="home-solucoesv">
 	<div class="container">
-		<div class="row anima-g">
-			<h2>Soluções para você</h1>
+		<div class="row wow fadeInUp">
+			<h2>Soluções para você</h2>
 		</div>
-		<div class="row anima-g">
+		<div class="row wow fadeInUp">
 			<div class="col-md-12">
 				<p>
 					<strong>Soluções de rastreamento e monitoramento para você.</strong>
 				</p>			
 			</div>
 		</div><br><br>
-		<div class="row">
-			<div class="col-md-4 anima-h">
+		<div class="row wow fadeInUp">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_03.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."embarcacoes"; ?>" class="btn-azul-claro">TRANSPORTE MARÍTIMO</a>				
 			</div>
-			<div class="col-md-4 anima-i">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_01.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">PARA SEU AUTOMÓVEL</a>				
 			</div>
-			<div class="col-md-4 anima-j">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesv_02.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">PARA SUA MOTO</a>				
 			</div>			
@@ -186,26 +186,26 @@ get_header(); ?>
 
 <section id="home-solucoesf">
 	<div class="container">
-		<div class="row anima-k">
-			<h2>Soluções para sua empresa e frota</h1>
+		<div class="row wow fadeInUp">
+			<h2>Soluções para sua empresa e frota</h2>
 		</div>
-		<div class="row anima-k">
+		<div class="row wow fadeInUp">
 			<div class="col-md-12">
 				<p>
 					<strong>Soluções inteligentes de rastreamento e monitoramento para sua empresa e frota.</strong>
 				</p>			
 			</div>
 		</div><br><br>
-		<div class="row">
-			<div class="col-md-4 anima-l">
+		<div class="row wow fadeInUp">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_03.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul">CONTAINERS</a>				
 			</div>
-			<div class="col-md-4 anima-n">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_01.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."cargas"; ?>" class="btn-azul">SOLUÇÕES PARA CARGAS</a>				
 			</div>
-			<div class="col-md-4 anima-m">
+			<div class="col-md-4">
 				<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesf_02.jpg"; ?>" /><br>
 				<a href="<?php echo home_url( '/' )."empresa"; ?>" class="btn-azul">SOLUÇÕES PARA FROTAS</a>				
 			</div>			
@@ -213,86 +213,137 @@ get_header(); ?>
 	</div>
 </section>
 
+<section id="home-solucoesfa">
+	<div class="container">
+		<div class="col-md-7 wow fadeInUp"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/rastrus-protecao-familia.jpg"; ?>" /></div>
+		<div class="col-md-5 wow fadeInUp text-left">
+			<h2>Proteção para sua família</h2><br><br>
+			<p>
+				Rastreadores pessoais e para automóveis discretos com monitoramento em tempo real.<br><br>
+				- Cobertura nacional<br><br>
+				- Central de atendimento 24 horas<br><br>
+				- Monitoramento via web e aplicativo
+			</p><br><br>
+			<a href="<?php echo home_url( '/' )."empresa"; ?>" class="btn-azul">SAIBA MAIS</a>				
+		</div>
+	</div>
+</section>
+
 <section id="planos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 anima-o">
+			<div class="col-md-6 col-md-offset-3 wow fadeInUp">
 				<h1>Planos de Monitoramento e Rastreamento</h1>
 				<h5><strong>Conheça todos os nossos planos de monitoramento e rastreamento e veja qual deles se encaixa no seu perfil.</strong></h5>
 			</div>
 		</div><br><br><br>
 		<div class="row">
-			<div class="col-md-4">
-				<div class="plano-op anima-p">
+			<div class="col-md-3">
+				<div class="plano-op wow fadeInLeft">
 					<header>
-						<div class="titulo"><h5>PLANO 1</h5></div>
+						<div class="titulo"><h5>MOTOS</h5></div>
 						<div class="preco clearfix">
 							<div class="cifrao pos">R$</div> 
-							<div class="valor pos">79</div>
+							<div class="valor pos">29</div>
 							<div class="decimal pos">,90</div>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
-						<p>MÍNIMO DE 12 MESES</p>
+						<p>+ R$ 512,90 pelo custo do rastreador</p><br>
 						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
 						<p>COBERTURA NACIONAL</p>
 						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
-						<p>INSTALAÇÃO EM DOMICÍLIO</p>
+						<p>INSTALAÇÃO NA RASTRUS</p>
 						<p>HISTÓRICO DE POSIÇÕES</p>
 						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
 						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
-			<div class="col-md-4 anima-r">
+			<div class="col-md-3 wow fadeInUp">
 				<div class="plano-op">
 					<header>
-						<div class="titulo"><h5>PLANO 2</h5></div>
+						<div class="titulo"><h5>VEÍCULOS</h5></div>
 						<div class="preco clearfix">
 							<div class="cifrao pos">R$</div> 
-							<div class="valor pos">49</div>
+							<div class="valor pos">29</div>
 							<div class="decimal pos">,90</div>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
-						<p>+$300,00 pelo custo do rastreador</p>
-						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModalb">ASSINE JÁ</a>
+						<p>+ R$ 312,90 pelo custo do rastreador</p><br>
+						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
 						<p>COBERTURA NACIONAL</p>
 						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
-						<p>INSTALAÇÃO EM DOMICÍLIO</p>
+						<p>INSTALAÇÃO NA RASTRUS</p>
 						<p>HISTÓRICO DE POSIÇÕES</p>
 						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
 						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
 					</div>					
 				</div>
 			</div>
-			<div class="col-md-4 anima-q">
+			<div class="col-md-3 wow fadeInUp">
 				<div class="plano-op">
 					<header>
-						<div class="titulo"><h5>PLANO 3 - ISCA OU MOTO</h5></div>
+						<div class="titulo"><h5>ISCAS PARA CARGAS</h5></div>
 						<div class="preco clearfix">
 							<div class="cifrao pos">R$</div> 
 							<div class="valor pos">49</div>
 							<div class="decimal pos">,90</div>
 							<div class="periodo pos">/ MÊS</div> 
 						</div>
-						<p>+R$500 pelo custo do rastreador</p>
-						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModalc">ASSINE JÁ</a>
+						<p>+ R$ 312,90 pelo custo do rastreador</p><br>
+						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
 					</header>
 					<div class="vantagens">
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
 						<p>COBERTURA NACIONAL</p>
 						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
-						<p>INSTALAÇÃO EM DOMICÍLIO</p>
+						<p>RASTREADORES DISCRETOS</p>
 						<p>HISTÓRICO DE POSIÇÕES</p>
 						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
 						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
 					</div>					
 				</div>
+			</div>
+			<div class="col-md-3 wow fadeInRight">
+				<div class="plano-op">
+					<header>
+						<div class="titulo"><h5>PROTEÇÃO PARA FAMÍLIA</h5></div>
+						<div class="preco clearfix">
+							<div class="cifrao pos">R$</div> 
+							<div class="valor pos">49</div>
+							<div class="decimal pos">,90</div>
+							<div class="periodo pos">/ MÊS</div> 
+						</div>
+						<p>+ R$ 312,90 pelo custo do rastreador</p><br>
+						<a class="btn-amarelo-q" href="#" data-toggle="modal" data-target="#myModala">ASSINE JÁ</a>
+					</header>
+					<div class="vantagens">
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seta_planos.jpg"; ?>" />
+						<p>COBERTURA NACIONAL</p>
+						<p>CENTRAL DE ATENDIMENTO 24 HORAS</p>
+						<p>RASTREADORES PARA VEÍCULOS</p>
+						<p>HISTÓRICO DE POSIÇÕES</p>
+						<p>MONITORAMENTO VIA APLICATIVO OU WEB</p>
+						<a class="btn-azul-claro-q" href="#" data-toggle="modal" data-target="#myModala">CONTRATAR</a>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="home-solucoesde">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 wow fadeInUp">
+				<h2>Depoimentos</h2>
+				<h5><strong>Veja a opinião de quem já é cliente Rastrus.seu perfil.</strong></h5>
 			</div>
 		</div>
 	</div>

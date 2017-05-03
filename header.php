@@ -19,6 +19,7 @@
 <?php wp_head(); ?>
 <script>
 	var dirbase = "<?php echo dirname( get_bloginfo('stylesheet_url')) ?>";
+new WOW().init();
 </script>
 </head>
 
@@ -65,10 +66,8 @@
 									><li><a href="<?php echo home_url( '/' )."planos"; ?>">Planos</a></li									
 									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Automóvel</a></li
 									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Moto</a></li
-									><li><a href="<?php echo home_url( '/' )."containers"; ?>">Containers</a></li
-									><li><a href="<?php echo home_url( '/' )."empresa"; ?>">Frotas</a></li
 									><li><a href="<?php echo home_url( '/' )."cargas"; ?>">Cargas</a></li
-									><li><a href="<?php echo home_url( '/' )."embarcacoes"; ?>">Marítimo</a></li>
+									><li><a href="<?php echo home_url( '/' )."familia"; ?>">Família</a></li>
 								</ul>								
 							</div>	
 						</div>
@@ -82,21 +81,20 @@
 									<a class="menu-drop-header" href="#">RASTREAMENTO</a>
 									<span class="glyphicon glyphicon-triangle-bottom"></span>
 									<ul class="menu-drop">
-										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Automóvel</a></li>
-										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Moto</a></li>
-										<li><a href="<?php echo home_url( '/' )."containers"; ?>">Containers</a></li>
-										<li><a href="<?php echo home_url( '/' )."empresa"; ?>">Frotas</a></li>
-										<li><a href="<?php echo home_url( '/' )."cargas"; ?>">Cargas</a></li>
-										<li><a href="<?php echo home_url( '/' )."embarcacoes"; ?>">Marítimo</a></li>
+										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para Automóvel</a></li>
+										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para Moto</a></li>
+										<li><a href="<?php echo home_url( '/' )."cargas"; ?>">Isca para Cargas</a></li>
+										<li><a href="<?php echo home_url( '/' )."familia"; ?>">Proteção para Família</a></li>
 									</ul>
 								</div>							
 								<div class="menu-op">
 									<a class="menu-drop-header" href="#">PLANOS</a>
 									<span class="glyphicon glyphicon-triangle-bottom"></span>
 									<ul class="menu-drop">
-										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Plano 1</a></li>
-										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Plano 2</a></li>
-										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Isca ou Moto</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Motos</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Veículos</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Carga</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Família</a></li>
 									</ul>									
 								</div>
 								<div class="menu-op">
@@ -121,7 +119,7 @@
 						<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
 						<div class="form-conteudo">
 							<p>Preencha todos os campos</p>
-							<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 17 ); } ?>
+							<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 3 ); } ?>
 						</div>						
 					</div>
 

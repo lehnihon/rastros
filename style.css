@@ -437,7 +437,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#planos div.plano-op div.vantagens {
       background-color: #0061b2;
       color: white;
-      padding-bottom: 35px; }
+      padding-bottom: 35px;
+      padding-left: 10px;
+      padding-right: 10px; }
       #page section#planos div.plano-op div.vantagens img {
         margin: 0 auto;
         margin-bottom: 25px; }
@@ -451,6 +453,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         display: block;
         margin: 0 auto;
         margin-top: 25px; }
+  #page section#home-solucoesfa {
+    margin-bottom: 80px; }
+  #page section#home-solucoesde {
+    margin-bottom: 80px; }
   #page section#home-solucoesv {
     margin-bottom: 80px; }
   #page section#home-solucoesf {
@@ -621,12 +627,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 15px 20px;
     display: block;
     width: 215px; }
+  #page .nf-form-fields-required {
+    display: none; }
   #page .btn-azul-q:hover {
     background-color: #66ABD2;
     color: white; }
   #page .btn-amarelo {
     padding: 5px 25px;
-    color: #0061b6;
+    color: #006fb2;
     border: 0;
     border-radius: 6px;
     background-color: #ffd100;
@@ -672,7 +680,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #606060; }
   #page .input-receba {
     border: 0;
-    padding: 5px; }
+    padding: 5px;
+    color: #9d9d9d; }
   #page .btn-receba {
     background-color: #00c6f9;
     font-weight: bold;
@@ -722,5 +731,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */ }
+
+.wow {
+  visibility: hidden; }
 
 /*# sourceMappingURL=style.css.map */

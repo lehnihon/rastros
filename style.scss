@@ -134,6 +134,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		
 	}
 
+	.nf-form-fields-required{
+		display:none;
+	}
+
 	.btn-azul-q:hover{
 		background-color:#66ABD2;
 		color:white;
@@ -141,7 +145,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	.btn-amarelo{
 		padding:5px 25px;
-		color:#0061b6;
+		color:#006fb2;
 		border:0;
 		border-radius: 6px;
 		background-color:#ffd100;
@@ -209,7 +213,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 	.input-receba{
 		border:0;
-		padding:5px
+		padding:5px;
+		color:#9d9d9d;
 	}
 
 	.btn-receba{ 
@@ -267,6 +272,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+
+.wow { visibility: hidden; }
 
 
 

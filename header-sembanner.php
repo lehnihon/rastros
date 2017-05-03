@@ -19,6 +19,7 @@
 <?php wp_head(); ?>
 <script>
 	var dirbase = "<?php echo dirname( get_bloginfo('stylesheet_url')) ?>";
+new WOW().init();
 </script>
 </head>
 
@@ -59,9 +60,14 @@
 									<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 								</button>
 								<ul class="dropdown-menu">
-								<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
-								><li><a href="<?php echo home_url( '/' )."planos"; ?>">PLANOS</a></li
-								><li><a href="<?php echo home_url( '/' ).""; ?>">RASTREAMENTO</a></li>
+									<li><a href="<?php echo home_url( '/' )."sobre"; ?>">Institucional</a></li
+									><li><a href="<?php echo home_url( '/' )."localizacao"; ?>">Localização</a></li
+									><li><a href="<?php echo home_url( '/' )."contato"; ?>">Atendimento</a></li
+									><li><a href="<?php echo home_url( '/' )."planos"; ?>">Planos</a></li									
+									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Automóvel</a></li
+									><li><a href="<?php echo home_url( '/' )."automovel"; ?>">Moto</a></li
+									><li><a href="<?php echo home_url( '/' )."cargas"; ?>">Cargas</a></li
+									><li><a href="<?php echo home_url( '/' )."familia"; ?>">Família</a></li>
 								</ul>								
 							</div>	
 						</div>
@@ -76,21 +82,20 @@
 									<a class="menu-drop-header" href="#">RASTREAMENTO</a>
 									<span class="glyphicon glyphicon-triangle-bottom"></span>
 									<ul class="menu-drop">
-										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Automóvel</a></li>
-										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Moto</a></li>
-										<li><a href="<?php echo home_url( '/' )."containers"; ?>">Containers</a></li>
-										<li><a href="<?php echo home_url( '/' )."empresa"; ?>">Frotas</a></li>
-										<li><a href="<?php echo home_url( '/' )."cargas"; ?>">Cargas</a></li>
-										<li><a href="<?php echo home_url( '/' )."embarcacoes"; ?>">Marítimo</a></li>
+										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para Automóvel</a></li>
+										<li><a href="<?php echo home_url( '/' )."automovel"; ?>">Para Moto</a></li>
+										<li><a href="<?php echo home_url( '/' )."cargas"; ?>">Isca para Cargas</a></li>
+										<li><a href="<?php echo home_url( '/' )."familia"; ?>">Proteção para Família</a></li>
 									</ul>
 								</div>							
 								<div class="menu-op">
 									<a class="menu-drop-header" href="#">PLANOS</a>
 									<span class="glyphicon glyphicon-triangle-bottom"></span>
 									<ul class="menu-drop">
-										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Plano 1</a></li>
-										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Plano 2</a></li>
-										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Isca ou Moto</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Motos</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Veículos</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Carga</a></li>
+										<li><a href="<?php echo home_url( '/' )."planos"; ?>">Família</a></li>
 									</ul>									
 								</div>
 								<div class="menu-op">

@@ -11,7 +11,7 @@ get_header('sembanner'); ?>
 		</div><br>
 		<div class="row">
 			<div class="col-md-5 info-left text-left">
-				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 18 ); }?>
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 6 ); }?>
 			</div>
 			<div class="col-md-6 col-md-offset-1 text-left">
 				<div class="videoWrapperb">

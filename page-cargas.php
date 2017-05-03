@@ -16,7 +16,8 @@ get_header(); ?>
 <section id="banner">
 	<div class="container-fluid">
 		<div class="row">		
-			<?php putRevSlider( "banner-cargas" ) ?>		
+			<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Rastrus Proteção para sua Frota de Veículos 3.jpg"; ?>" />
+
 		</div>
 	</div>
 </section>
@@ -27,7 +28,7 @@ get_header(); ?>
 			<div class="col-md-12">
 				<header><h2>SOLICITE UM ORÇAMENTO E FIQUE MAIS TRANQUILO.</h2></header>
 				<div class="form-conteudo">
-					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 17 ); } ?>
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 3 ); } ?>
 				</div>						
 			</div>
 
@@ -89,10 +90,10 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-4 text-right">
-				<a href="<?php echo home_url( '/' )."containers"; ?>" class="btn-azul-claro">SOLUÇÕES PARA CONTAINERS</a>
+				<a href="<?php echo home_url( '/' )."familia"; ?>" class="btn-azul-claro">PROTEÇÃO PARA FAMÍLIA</a>
 			</div>
 			<div class="col-md-4 text-center">
-				<a href="<?php echo home_url( '/' )."empresa"; ?>" class="btn-azul-claro">SOLUÇÕES PARA SUA FROTA</a>
+				<a href="<?php echo home_url( '/' )."automovel"; ?>" class="btn-azul-claro">SOLUÇÕES PARA AUTOMÓVEL E MOTO</a>
 			</div>
 			<div class="col-md-4 text-left">
 				<a href="#" class="btn-azul">SOLICITAR ORÇAMENTO</a>
